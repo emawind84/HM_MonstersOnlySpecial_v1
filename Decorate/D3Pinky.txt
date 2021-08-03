@@ -1,0 +1,77 @@
+actor PinkySpawner : RandomSpawner replaces Spectre
+{
+    DropItem "D3Pinky", 255, 2
+    DropItem "D3Maggot", 255, 1
+}
+
+actor D3Pinky : Spectre
+{
+Health 150
+	PainChance 64
+	Speed 4
+	Radius 30
+	Height 56
+	Mass 400
+	MaxStepHeight 24
+	MaxDropOffHeight 64
+	MONSTER
+	+SLIDESONWALLS
+	+FLOORCLIP
+	+FORCERADIUSDMG
+  SeeSound "demonsight"
+  ActiveSound "demonactive"
+  PainSound "demonpain"
+  DeathSound "demondeath"
+  HitObituary "$OB_PINKY"
+  Scale 0.80
+  states
+  {
+  Spawn:
+    CYBI ABCDEFGHIJKLMNOP 4 A_LookEx(0,0,0,0,120,"See")
+    loop
+  See:
+    CYBW ABCDE 1 A_Chase
+	CYBW F 1 A_PlaySound("Pinkystep",7)
+	CYBW GHIJKLMNOP 1 A_Chase
+	CYBW Q 1 A_PlaySound("Pinkystep",7)
+	CYBW RSTUV 1 A_Chase
+    loop
+  Pain:
+    CYBI A 1
+    CYBI A 1 A_Pain
+    goto See
+  Melee:
+	CYBM A 0 A_Jump(128,"MeleeAlt")
+	CYBM A 0 A_PlaySound("demonmelee",7)
+    CYBM ABCD 1 A_FaceTarget
+	CYBM E 1 A_CustomMeleeAttack(random(20,50),"HKMelee","weapons/fistswing",melee,1)
+	CYBM EFGHIJKLMNOPQRST 1
+	goto See
+  MeleeAlt:
+	CYBM A 0 A_PlaySound("demonmelee",7)
+    CYAM ABCD 1 A_FaceTarget
+	CYAM E 1 A_CustomMeleeAttack(random(20,50),"HKMelee","weapons/fistswing",melee,1)
+	CYAM EFGHIJKLMNOPQRSTUVW 1
+	goto See
+  Death:
+	CYBI A 1 A_Scream
+	CYBI A 1 A_Fall
+	TNT1 A 1 A_SpawnItemEx("D3PinkyBody",0,0,0)
+	stop
+  }
+}
+
+Actor D3PinkyBody
+{
+	States
+	{
+	Spawn:
+		PKDE ABCDEFGHI 1
+		PKDE JKLMNO 2
+		PKDE O 700
+		Goto FadeOut
+	FadeOut:
+		PKDE O 1 A_FadeOut(0.06)
+		Loop
+	}
+}

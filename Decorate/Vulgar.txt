@@ -1,0 +1,115 @@
+actor D3Vulgar : Revenant
+{
+Health 450
+	//Health 640
+	Radius 20
+	Height 56
+	Mass 100
+	Speed 4
+	PainChance 70
+  SeeSound "vugsight"
+  ActiveSound "vugactive"
+  PainSound "vugpain"
+  DeathSound "vugdeath"
+  Obituary "$OB_VUGFIREBALL"
+  HitObituary "$OB_VUGMELEE"
+  +MISSILEMORE
+  MONSTER
+	+SLIDESONWALLS
+	+FLOORCLIP
+  states
+  {
+  Spawn:
+    CYBI ABCDEFGHIJKLMNOPQRSTUVWXYZ 6 A_LookEx(0,0,0,0,120,"See")
+    CYBO ABCDEFGHIJ 6 A_LookEx(0,0,0,0,120,"See")
+    loop
+  See:
+    CYBW ABCDEFGHIJKLMNOPQRSTUVWX 1 A_Chase
+    Loop
+  Pain:
+    CYBI A 1
+    CYBI A 1 A_Pain
+    goto See
+  Missile:
+    CYBF A 0 A_PlaySound("impcreate",7)
+    CYBF ABCDEF 2 A_FaceTarget
+	CYBF G 2 A_CustomMissile("VulgarBall",32)
+	CYBF HIJKLMNOPQRST 2
+	goto See
+  Melee:
+    CYBM A 0 A_Jump(128,"MeleeAlt")
+    CYBM ABCDE 1 A_FaceTarget
+	CYBM F 2 A_CustomMeleeAttack(4,"impmelee","weapons/fistswing",melee,1)
+	CYBM FGHIJKLMMNOPQ 2
+	goto See
+  MeleeAlt:
+    CYBF ABCDEF 1 A_FaceTarget
+	CYBF G 2 A_CustomMeleeAttack(4,"impmelee","weapons/fistswing",melee,1)
+	CYBF HIJKLMNOPQRST 2
+	goto See
+  Death:
+	CYBI A 1 A_Scream
+	CYBI A 1 A_Fall
+	TNT1 A 1 A_SpawnItemEx("D3VulgarBody")
+	stop
+  }
+}
+
+Actor D3VulgarBody
+{
+	States
+	{
+	Spawn:
+		IMPD ABCDEFGHIJKLMNOP 2
+		IMPD Q 700
+		Goto FadeOut
+	FadeOut:
+		IMPD Q 1 A_FadeOut(0.06)
+		Loop
+	}
+}
+
+ACTOR VulgarBall
+{
+	Radius 6
+	Height 8
+	Speed 20
+	FastSpeed 25
+	Damage 8
+	Projectile
+	+RANDOMIZE
+	+FORCEXYBILLBOARD
+	RenderStyle Add
+	Alpha 1
+	SeeSound "Doom4/Monsters/Generic/ThrowFireballLow"
+	DeathSound "Doom4/Other/FireballHit2"
+	scale 0.3
+	Translation "0:255=%[0,0,0]:[0.6,1.4,0]"
+	Decal "BaronFireballScorch"
+	States
+	{
+	Spawn:
+		DB58 ABCDEFGHIJKLMNOPQRSTUVWXYZ 2 BRIGHT Light("GreenMediumFlicker2")
+		Loop
+	Death:
+		HIBI A 0 A_SetScale(0.6)
+		DB59 AB 1 BRIGHT Light("GreenMediumFlicker3")	//had to separate
+		DB59 CD 1 BRIGHT Light("GreenMediumFlicker2")
+		DB59 EF 1 BRIGHT Light("GreenMediumFlicker2")
+		DB59 GH 1 BRIGHT Light("GreenMediumFlicker2")
+		DB59 IJ 1 BRIGHT Light("GreenMediumFlicker3")
+		DB59 KL 1 BRIGHT Light("GreenSmallFlicker1")
+		DB59 MN 1 BRIGHT Light("GreenSmallFlicker1")
+		DB59 OP 1 BRIGHT Light("GreenSmallFlicker2")
+		DB59 QR 1 BRIGHT Light("GreenSmallFlicker2")
+		DB59 ST 1 BRIGHT Light("GreenSmallFlicker3")
+		Stop
+	}
+}
+
+Actor Vulgarspawn : RandomSpawner Replaces Revenant
+{
+
+    DropItem "D3Vulgar" ,255 ,1
+
+}

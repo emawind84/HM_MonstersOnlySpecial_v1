@@ -1,0 +1,1414 @@
+Model D3IMP
+{ 
+   Path "MD3/IMP"
+   SKIN 0 "body.jpg"
+   MODEL 0 "D3Imp.md3"
+   Scale 1.0 1.0 1.0
+   
+   FrameIndex CYBI A 0 0
+   FrameIndex CYBI B 0 1
+   FrameIndex CYBI C 0 2
+   FrameIndex CYBI D 0 3
+   FrameIndex CYBI E 0 4
+   FrameIndex CYBI F 0 5
+   FrameIndex CYBI G 0 6
+   FrameIndex CYBI H 0 7
+   FrameIndex CYBI I 0 8
+   FrameIndex CYBI J 0 9
+   FrameIndex CYBI K 0 10
+   FrameIndex CYBI L 0 11
+   FrameIndex CYBI M 0 12
+   FrameIndex CYBI N 0 13
+   FrameIndex CYBI O 0 14
+   FrameIndex CYBI P 0 15
+   FrameIndex CYBI Q 0 16
+   FrameIndex CYBI R 0 17
+   FrameIndex CYBI S 0 18
+   FrameIndex CYBI T 0 19
+   FrameIndex CYBI U 0 20
+   
+   FrameIndex CYBW A 0 21
+   FrameIndex CYBW B 0 22
+   FrameIndex CYBW C 0 23
+   FrameIndex CYBW D 0 24
+   FrameIndex CYBW E 0 25
+   FrameIndex CYBW F 0 26
+   FrameIndex CYBW G 0 27
+   FrameIndex CYBW H 0 28
+   FrameIndex CYBW I 0 29
+   FrameIndex CYBW J 0 30
+   FrameIndex CYBW K 0 31
+   FrameIndex CYBW L 0 32
+   FrameIndex CYBW M 0 33
+   FrameIndex CYBW N 0 34
+   FrameIndex CYBW O 0 35
+   FrameIndex CYBW P 0 36
+   FrameIndex CYBW Q 0 37
+   FrameIndex CYBW R 0 38
+   FrameIndex CYBW S 0 39
+   
+   FrameIndex CYBF A 0 40
+   FrameIndex CYBF B 0 41
+   FrameIndex CYBF C 0 42
+   FrameIndex CYBF D 0 43
+   FrameIndex CYBF E 0 44
+   FrameIndex CYBF F 0 45
+   FrameIndex CYBF G 0 46
+   FrameIndex CYBF H 0 47
+   FrameIndex CYBF I 0 48
+   FrameIndex CYBF J 0 49
+   FrameIndex CYBF K 0 50
+   FrameIndex CYBF L 0 51
+   FrameIndex CYBF M 0 52
+   FrameIndex CYBF N 0 53
+   FrameIndex CYBF O 0 54
+   FrameIndex CYBF P 0 55
+   FrameIndex CYBF Q 0 56
+   FrameIndex CYBF R 0 57
+   FrameIndex CYBF S 0 58
+   
+   FrameIndex CYBM A 0 59
+   FrameIndex CYBM B 0 60
+   FrameIndex CYBM C 0 61
+   FrameIndex CYBM D 0 62
+   FrameIndex CYBM E 0 63
+   FrameIndex CYBM F 0 64
+   FrameIndex CYBM G 0 65
+   FrameIndex CYBM H 0 66
+   FrameIndex CYBM I 0 67
+   FrameIndex CYBM J 0 68
+   FrameIndex CYBM K 0 69
+   FrameIndex CYBM L 0 70
+   FrameIndex CYBM M 0 71
+   FrameIndex CYBM N 0 72
+   FrameIndex CYBM O 0 73
+   FrameIndex CYBM P 0 74
+   FrameIndex CYBM Q 0 75
+}
+
+Model D3IMPBody
+{ 
+   Path "MD3/IMP"
+   SKIN 0 "body.jpg"
+   MODEL 0 "D3Imp.md3"
+   Scale 1.0 1.0 1.0
+   
+   FrameIndex IMPD A 0 75
+   FrameIndex IMPD B 0 76
+   FrameIndex IMPD C 0 77
+   FrameIndex IMPD D 0 78
+   FrameIndex IMPD E 0 79
+   FrameIndex IMPD F 0 80
+   FrameIndex IMPD G 0 81
+   FrameIndex IMPD H 0 82
+   FrameIndex IMPD I 0 83
+   FrameIndex IMPD J 0 84
+   FrameIndex IMPD K 0 85
+   FrameIndex IMPD L 0 86
+   FrameIndex IMPD M 0 87
+   FrameIndex IMPD N 0 88
+   FrameIndex IMPD O 0 89
+   FrameIndex IMPD P 0 90
+   FrameIndex IMPD Q 0 91
+   FrameIndex IMPD R 0 92
+   FrameIndex IMPD S 0 93
+   FrameIndex IMPD T 0 94
+   FrameIndex IMPD U 0 95
+   FrameIndex IMPD V 0 96
+   FrameIndex IMPD W 0 97
+   FrameIndex IMPD X 0 98
+   FrameIndex IMPD Y 0 99
+   FrameIndex IMPD Z 0 100
+}
+
+Model D3Mancubus
+{ 
+   Path "MD3/FATSO"
+   SKIN 0 "manc_rev.jpg"
+   MODEL 0 "Mancubus.md3"
+   Scale 1.0 1.0 1.0
+   
+   FrameIndex CYBI A 0 0
+   FrameIndex CYBI B 0 1
+   FrameIndex CYBI C 0 2
+   FrameIndex CYBI D 0 3
+   FrameIndex CYBI E 0 4
+   FrameIndex CYBI F 0 5
+   FrameIndex CYBI G 0 6
+   FrameIndex CYBI H 0 7
+   FrameIndex CYBI I 0 8
+   FrameIndex CYBI J 0 9
+   FrameIndex CYBI K 0 10
+   FrameIndex CYBI L 0 11
+   FrameIndex CYBI M 0 12
+   FrameIndex CYBI N 0 13
+   FrameIndex CYBI O 0 14
+   FrameIndex CYBI P 0 15
+   FrameIndex CYBI Q 0 16
+   FrameIndex CYBI R 0 17
+   FrameIndex CYBI S 0 18
+   FrameIndex CYBI T 0 19
+   FrameIndex CYBI U 0 20
+   FrameIndex CYBI V 0 21
+   FrameIndex CYBI W 0 22
+   FrameIndex CYBI X 0 23
+   FrameIndex CYBI Y 0 24
+   FrameIndex CYBI Z 0 25
+   FrameIndex CYBU A 0 26
+   FrameIndex CYBU B 0 27
+   FrameIndex CYBU C 0 28
+   FrameIndex CYBU D 0 29
+   FrameIndex CYBU E 0 30
+   FrameIndex CYBU F 0 31
+   FrameIndex CYBU G 0 32
+   FrameIndex CYBU H 0 33
+   FrameIndex CYBU I 0 34
+   FrameIndex CYBU J 0 35
+   FrameIndex CYBU K 0 36
+   FrameIndex CYBU L 0 37
+   FrameIndex CYBU M 0 38
+   FrameIndex CYBU N 0 39
+   FrameIndex CYBU O 0 40
+   FrameIndex CYBU P 0 41
+   FrameIndex CYBU Q 0 42
+   FrameIndex CYBU R 0 43
+   FrameIndex CYBU S 0 44
+   FrameIndex CYBU T 0 45
+   FrameIndex CYBU U 0 46
+   FrameIndex CYBU V 0 47
+   FrameIndex CYBU W 0 48
+   FrameIndex CYBU X 0 49
+   FrameIndex CYBU Y 0 50
+   FrameIndex CYBU Z 0 51
+   FrameIndex CYBO A 0 52
+   FrameIndex CYBO B 0 53
+   FrameIndex CYBO C 0 54
+   FrameIndex CYBO D 0 55
+   FrameIndex CYBO E 0 56
+   FrameIndex CYBO F 0 57
+   FrameIndex CYBO G 0 58
+   FrameIndex CYBO H 0 59
+   
+   FrameIndex CYBW A 0 60
+   FrameIndex CYBW B 0 61
+   FrameIndex CYBW C 0 62
+   FrameIndex CYBW D 0 63
+   FrameIndex CYBW E 0 64
+   FrameIndex CYBW F 0 65
+   FrameIndex CYBW G 0 66
+   FrameIndex CYBW H 0 67
+   FrameIndex CYBW I 0 68
+   FrameIndex CYBW J 0 69
+   FrameIndex CYBW K 0 70
+   FrameIndex CYBW L 0 71
+   FrameIndex CYBW M 0 72
+   FrameIndex CYBW N 0 73
+   FrameIndex CYBW O 0 74
+   FrameIndex CYBW P 0 75
+   FrameIndex CYBW Q 0 76
+   FrameIndex CYBW R 0 77
+   FrameIndex CYBW S 0 78
+   FrameIndex CYBW T 0 79
+   FrameIndex CYBW U 0 80
+   FrameIndex CYBW V 0 81
+   FrameIndex CYBW W 0 82
+   FrameIndex CYBW X 0 83
+   FrameIndex CYBW Y 0 84
+   FrameIndex CYBW Z 0 85
+   FrameIndex CYBX A 0 86
+   FrameIndex CYBX B 0 87
+   FrameIndex CYBX C 0 88
+   FrameIndex CYBX D 0 89
+   FrameIndex CYBX E 0 90
+   FrameIndex CYBX F 0 91
+   
+   FrameIndex CYBM A 0 92
+   FrameIndex CYBM B 0 93
+   FrameIndex CYBM C 0 94
+   FrameIndex CYBM D 0 95
+   FrameIndex CYBM E 0 96
+   FrameIndex CYBM F 0 97
+   FrameIndex CYBM G 0 98
+   FrameIndex CYBM H 0 99
+   FrameIndex CYBM I 0 100
+   FrameIndex CYBM J 0 101
+   FrameIndex CYBM K 0 102
+   FrameIndex CYBM L 0 103
+   FrameIndex CYBM M 0 104
+   FrameIndex CYBM N 0 105
+   FrameIndex CYBM O 0 106
+   FrameIndex CYBM P 0 107
+   FrameIndex CYBM Q 0 108
+   FrameIndex CYBM R 0 109
+   FrameIndex CYBM S 0 110
+   FrameIndex CYBM T 0 111
+   FrameIndex CYBM U 0 112
+   FrameIndex CYBM V 0 113
+   FrameIndex CYBM W 0 114
+   FrameIndex CYBM X 0 115
+   FrameIndex CYBM Y 0 116
+   FrameIndex CYBM Z 0 117
+   FrameIndex CYBN A 0 118
+   FrameIndex CYBN B 0 119
+   FrameIndex CYBN C 0 120
+   FrameIndex CYBN D 0 121
+   FrameIndex CYBN E 0 122
+   FrameIndex CYBN F 0 123
+   FrameIndex CYBN G 0 124
+   FrameIndex CYBN H 0 125
+   FrameIndex CYBN I 0 126
+   FrameIndex CYBN J 0 127
+   FrameIndex CYBN K 0 128
+   FrameIndex CYBN L 0 129
+   FrameIndex CYBN M 0 130
+   FrameIndex CYBN N 0 131
+   
+   FrameIndex CYBF A 0 132
+   FrameIndex CYBF B 0 133
+   FrameIndex CYBF C 0 134
+   FrameIndex CYBF D 0 135
+   FrameIndex CYBF E 0 136
+   FrameIndex CYBF F 0 137
+   FrameIndex CYBF G 0 138
+   FrameIndex CYBF H 0 139
+   FrameIndex CYBF I 0 140
+   FrameIndex CYBF J 0 141
+   FrameIndex CYBF K 0 142
+   FrameIndex CYBF L 0 143
+   FrameIndex CYBF M 0 144
+   FrameIndex CYBF N 0 145
+   FrameIndex CYBF O 0 146
+   FrameIndex CYBF P 0 147
+   FrameIndex CYBF Q 0 148
+   FrameIndex CYBF R 0 149
+   FrameIndex CYBF S 0 150
+   FrameIndex CYBF T 0 151
+   FrameIndex CYBF U 0 152
+   FrameIndex CYBF V 0 153
+   FrameIndex CYBF W 0 154
+   FrameIndex CYBF X 0 155
+   FrameIndex CYBF Y 0 156
+   FrameIndex CYBF Z 0 157
+   FrameIndex CYBG A 0 158
+   FrameIndex CYBG B 0 159
+   FrameIndex CYBG C 0 160
+   FrameIndex CYBG D 0 161
+}
+
+Model D3MancubusBody
+{ 
+   Path "MD3/FATSO"
+   SKIN 0 "manc_rev.jpg"
+   MODEL 0 "Mancubus.md3"
+   Scale 1.0 1.0 1.0
+   
+   FrameIndex MCDE A 0 162
+   FrameIndex MCDE B 0 163
+   FrameIndex MCDE C 0 164
+   FrameIndex MCDE D 0 165
+   FrameIndex MCDE E 0 166
+   FrameIndex MCDE F 0 167
+   FrameIndex MCDE G 0 168
+   FrameIndex MCDE H 0 169
+   FrameIndex MCDE I 0 170
+   FrameIndex MCDE J 0 171
+   FrameIndex MCDE K 0 172
+   FrameIndex MCDE L 0 173
+   FrameIndex MCDE M 0 174
+   FrameIndex MCDE N 0 175
+   FrameIndex MCDE O 0 176
+   FrameIndex MCDE P 0 177
+   FrameIndex MCDE Q 0 178
+   FrameIndex MCDE R 0 179
+   FrameIndex MCDE S 0 180
+}
+
+Model D3Bruiser
+{ 
+   Path "MD3/BRUIS"
+   SKIN 0 "bruiser.jpg"
+   MODEL 0 "Bruiser.md3"
+   Scale 1.0 1.0 1.0
+   
+   FrameIndex CYBI A 0 0
+   FrameIndex CYBI B 0 1
+   FrameIndex CYBI C 0 2
+   FrameIndex CYBI D 0 3
+   FrameIndex CYBI E 0 4
+   FrameIndex CYBI F 0 5
+   FrameIndex CYBI G 0 6
+   FrameIndex CYBI H 0 7
+   FrameIndex CYBI I 0 8
+   FrameIndex CYBI J 0 9
+   FrameIndex CYBI K 0 10
+   FrameIndex CYBI L 0 11
+   FrameIndex CYBI M 0 12
+   FrameIndex CYBI N 0 13
+   FrameIndex CYBI O 0 14
+   FrameIndex CYBI P 0 15
+   FrameIndex CYBI Q 0 16
+   FrameIndex CYBI R 0 17
+   FrameIndex CYBI S 0 18
+   FrameIndex CYBI T 0 19
+   FrameIndex CYBI U 0 20
+   FrameIndex CYBI V 0 21
+   FrameIndex CYBI W 0 22
+   FrameIndex CYBI X 0 23
+   FrameIndex CYBI Y 0 24
+   FrameIndex CYBI Z 0 25
+   FrameIndex CYBU A 0 26
+   FrameIndex CYBU B 0 27
+   FrameIndex CYBU C 0 28
+   FrameIndex CYBU D 0 29
+   FrameIndex CYBU E 0 30
+   FrameIndex CYBU F 0 31
+   FrameIndex CYBU G 0 32
+   FrameIndex CYBU H 0 33
+   FrameIndex CYBU I 0 34
+   FrameIndex CYBU J 0 35
+   FrameIndex CYBU K 0 36
+   
+   FrameIndex CYBW A 0 37
+   FrameIndex CYBW B 0 38
+   FrameIndex CYBW C 0 39
+   FrameIndex CYBW D 0 40
+   FrameIndex CYBW E 0 41
+   FrameIndex CYBW F 0 42
+   FrameIndex CYBW G 0 43
+   FrameIndex CYBW H 0 44
+   FrameIndex CYBW I 0 45
+   FrameIndex CYBW J 0 46
+   FrameIndex CYBW K 0 47
+   FrameIndex CYBW L 0 48
+   FrameIndex CYBW M 0 49
+   FrameIndex CYBW N 0 50
+   FrameIndex CYBW O 0 51
+   FrameIndex CYBW P 0 52
+   FrameIndex CYBW Q 0 53
+   FrameIndex CYBW R 0 54
+   FrameIndex CYBW S 0 55
+   FrameIndex CYBW T 0 56
+   FrameIndex CYBW U 0 57
+   FrameIndex CYBW V 0 58
+   FrameIndex CYBW W 0 59
+   FrameIndex CYBW X 0 60
+   FrameIndex CYBW Y 0 61
+   FrameIndex CYBW Z 0 62
+   FrameIndex CYBX A 0 63
+   FrameIndex CYBX B 0 64
+   FrameIndex CYBX C 0 65
+   FrameIndex CYBX D 0 66
+   FrameIndex CYBX E 0 67
+   FrameIndex CYBX F 0 68
+   FrameIndex CYBX G 0 69
+   
+   FrameIndex CYBM A 0 70
+   FrameIndex CYBM B 0 71
+   FrameIndex CYBM C 0 72
+   FrameIndex CYBM D 0 73
+   FrameIndex CYBM E 0 74
+   FrameIndex CYBM F 0 75
+   FrameIndex CYBM G 0 76
+   FrameIndex CYBM H 0 77
+   FrameIndex CYBM I 0 78
+   FrameIndex CYBM J 0 79
+   FrameIndex CYBM K 0 80
+   FrameIndex CYBM L 0 81
+   FrameIndex CYBM M 0 82
+   FrameIndex CYBM N 0 83
+   FrameIndex CYBM O 0 84
+   FrameIndex CYBM P 0 85
+   FrameIndex CYBM Q 0 86
+   FrameIndex CYBM R 0 87
+   FrameIndex CYBM S 0 88
+   FrameIndex CYBM T 0 89
+   FrameIndex CYBM U 0 90
+   FrameIndex CYBM V 0 91
+   FrameIndex CYBM W 0 92
+   FrameIndex CYBM X 0 93
+   FrameIndex CYBM Y 0 94
+   FrameIndex CYBM Z 0 95
+   FrameIndex CYBN A 0 96
+   FrameIndex CYBN B 0 97
+   FrameIndex CYBN C 0 98
+   FrameIndex CYBN D 0 99
+   FrameIndex CYBN E 0 100
+   FrameIndex CYBN F 0 101
+   FrameIndex CYBN G 0 102
+   
+   FrameIndex CYBO A 0 103
+   FrameIndex CYBO B 0 104
+   FrameIndex CYBO C 0 105
+   FrameIndex CYBO D 0 106
+   FrameIndex CYBO E 0 107
+   FrameIndex CYBO F 0 108
+   FrameIndex CYBO G 0 109
+   FrameIndex CYBO H 0 110
+   FrameIndex CYBO I 0 111
+   FrameIndex CYBO J 0 112
+   FrameIndex CYBO K 0 113
+   FrameIndex CYBO L 0 114
+   FrameIndex CYBO M 0 115
+   FrameIndex CYBO N 0 116
+   FrameIndex CYBO O 0 117
+   FrameIndex CYBO P 0 118
+   FrameIndex CYBO Q 0 119
+   FrameIndex CYBO R 0 120
+   FrameIndex CYBO S 0 121
+   FrameIndex CYBO T 0 122
+   FrameIndex CYBO U 0 123
+   FrameIndex CYBO V 0 124
+   FrameIndex CYBO W 0 125
+   FrameIndex CYBO X 0 126
+   FrameIndex CYBO Y 0 127
+   FrameIndex CYBO Z 0 128
+   FrameIndex CYBP A 0 129
+   FrameIndex CYBP B 0 130
+   FrameIndex CYBP C 0 131
+   FrameIndex CYBP D 0 132
+   FrameIndex CYBP E 0 133
+   FrameIndex CYBP F 0 134
+   FrameIndex CYBP G 0 135
+   
+   FrameIndex CYBF A 0 136
+   FrameIndex CYBF B 0 137
+   FrameIndex CYBF C 0 138
+   FrameIndex CYBF D 0 139
+   FrameIndex CYBF E 0 140
+   FrameIndex CYBF F 0 141
+   FrameIndex CYBF G 0 142
+   FrameIndex CYBF H 0 143
+   FrameIndex CYBF I 0 144
+   FrameIndex CYBF J 0 145
+   FrameIndex CYBF K 0 146
+   FrameIndex CYBF L 0 147
+   FrameIndex CYBF M 0 148
+   FrameIndex CYBF N 0 149
+   FrameIndex CYBF O 0 150
+   FrameIndex CYBF P 0 151
+   FrameIndex CYBF Q 0 152
+   FrameIndex CYBF R 0 153
+   FrameIndex CYBF S 0 154
+   FrameIndex CYBF T 0 155
+   FrameIndex CYBF U 0 156
+   FrameIndex CYBF V 0 157
+   FrameIndex CYBF W 0 158
+   FrameIndex CYBF X 0 159
+   FrameIndex CYBF Y 0 160
+   FrameIndex CYBF Z 0 161
+   FrameIndex CYBS A 0 162
+   FrameIndex CYBS B 0 163
+   FrameIndex CYBS C 0 164
+   FrameIndex CYBS D 0 165
+   FrameIndex CYBS E 0 166
+   FrameIndex CYBS F 0 167
+   FrameIndex CYBS G 0 168
+}
+
+Model D3BruiserBody
+{ 
+   Path "MD3/BRUIS"
+   SKIN 0 "bruiser.jpg"
+   MODEL 0 "Bruiser.md3"
+   Scale 1.0 1.0 1.0
+   
+   FrameIndex CYBD A 0 169
+   FrameIndex CYBD B 0 170
+   FrameIndex CYBD C 0 171
+   FrameIndex CYBD D 0 172
+   FrameIndex CYBD E 0 173
+   FrameIndex CYBD F 0 174
+   FrameIndex CYBD G 0 175
+   FrameIndex CYBD H 0 176
+   FrameIndex CYBD I 0 177
+   FrameIndex CYBD J 0 178
+   FrameIndex CYBD K 0 179
+   FrameIndex CYBD L 0 180
+   FrameIndex CYBD M 0 181
+   FrameIndex CYBD N 0 182
+   FrameIndex CYBD O 0 183
+   FrameIndex CYBD P 0 184
+   FrameIndex CYBD Q 0 185
+   FrameIndex CYBD R 0 186
+   FrameIndex CYBD S 0 187
+   FrameIndex CYBD T 0 188
+   FrameIndex CYBD U 0 189
+   FrameIndex CYBD V 0 190
+}
+
+Model D3PistolGuy
+{ 
+   Path "MD3/PISTOLGUY"
+   SKIN 0 "zsec_pis.jpg"
+   MODEL 0 "Pistolguy.md3"
+   Scale 1.0 1.0 1.0
+   
+   FrameIndex CYBI A 0 0
+   FrameIndex CYBI B 0 1
+   FrameIndex CYBI C 0 2
+   FrameIndex CYBI D 0 3
+   FrameIndex CYBI E 0 4
+   FrameIndex CYBI F 0 5
+   FrameIndex CYBI G 0 6
+   FrameIndex CYBI H 0 7
+   FrameIndex CYBI I 0 8
+   FrameIndex CYBI J 0 9
+   FrameIndex CYBI K 0 10
+   FrameIndex CYBI L 0 11
+   FrameIndex CYBI M 0 12
+   FrameIndex CYBI N 0 13
+   FrameIndex CYBI O 0 14
+   FrameIndex CYBI P 0 15
+   FrameIndex CYBI Q 0 16
+   FrameIndex CYBI R 0 17
+   FrameIndex CYBI S 0 18
+   FrameIndex CYBI T 0 19
+   FrameIndex CYBI U 0 20
+   FrameIndex CYBI V 0 21
+   FrameIndex CYBI W 0 22
+   FrameIndex CYBI X 0 23
+   FrameIndex CYBI Y 0 24
+   FrameIndex CYBI Z 0 25
+   
+   FrameIndex CYBW A 0 26
+   FrameIndex CYBW B 0 27
+   FrameIndex CYBW C 0 28
+   FrameIndex CYBW D 0 29
+   FrameIndex CYBW E 0 30
+   FrameIndex CYBW F 0 31
+   FrameIndex CYBW G 0 32
+   FrameIndex CYBW H 0 33
+   FrameIndex CYBW I 0 34
+   FrameIndex CYBW J 0 35
+   FrameIndex CYBW K 0 36
+   FrameIndex CYBW L 0 37
+   FrameIndex CYBW M 0 38
+   FrameIndex CYBW N 0 39
+   FrameIndex CYBW O 0 40
+   FrameIndex CYBW P 0 41
+   FrameIndex CYBW Q 0 42
+   
+   FrameIndex CYBF A 0 43
+   FrameIndex CYBF B 0 44
+   FrameIndex CYBF C 0 45
+   FrameIndex CYBF D 0 46
+   FrameIndex CYBF E 0 47
+   FrameIndex CYBF F 0 48
+   FrameIndex CYBF G 0 49
+   FrameIndex CYBF H 0 50
+   FrameIndex CYBF I 0 51
+   FrameIndex CYBF J 0 52
+   FrameIndex CYBF K 0 53
+   FrameIndex CYBF L 0 54
+   FrameIndex CYBF M 0 55
+   FrameIndex CYBF N 0 56
+   FrameIndex CYBF O 0 57
+   FrameIndex CYBF P 0 58
+   FrameIndex CYBF Q 0 59
+   FrameIndex CYBF R 0 60
+   FrameIndex CYBF S 0 61
+}
+
+Model D3PistolGuyBody
+{ 
+   Path "MD3/PISTOLGUY"
+   SKIN 0 "zsec_pis.jpg"
+   MODEL 0 "Pistolguy.md3"
+   Scale 1.0 1.0 1.0
+   
+   FrameIndex CYBD A 0 62
+   FrameIndex CYBD B 0 63
+   FrameIndex CYBD C 0 64
+   FrameIndex CYBD D 0 65
+   FrameIndex CYBD E 0 66
+   FrameIndex CYBD F 0 67
+   FrameIndex CYBD G 0 68
+   FrameIndex CYBD H 0 69
+   FrameIndex CYBD I 0 70
+}
+
+Model D3Wraith
+{ 
+   Path "MD3/Wraith"
+   SKIN 0 "wraith_rev.jpg"
+   MODEL 0 "Wraith.md3"
+   Scale 1.0 1.0 1.0
+   
+   FrameIndex CYBI A 0 0
+   FrameIndex CYBI B 0 1
+   FrameIndex CYBI C 0 2
+   FrameIndex CYBI D 0 3
+   FrameIndex CYBI E 0 4
+   FrameIndex CYBI F 0 5
+   FrameIndex CYBI G 0 6
+   FrameIndex CYBI H 0 7
+   FrameIndex CYBI I 0 8
+   FrameIndex CYBI J 0 9
+   FrameIndex CYBI K 0 10
+   FrameIndex CYBI L 0 11
+   FrameIndex CYBI M 0 12
+   FrameIndex CYBI N 0 13
+   FrameIndex CYBI O 0 14
+   FrameIndex CYBI P 0 15
+   FrameIndex CYBI Q 0 16
+   FrameIndex CYBI R 0 17
+   FrameIndex CYBI S 0 18
+   FrameIndex CYBI T 0 19
+   FrameIndex CYBI U 0 20
+   FrameIndex CYBI V 0 21
+   FrameIndex CYBI W 0 22
+   FrameIndex CYBI X 0 23
+   FrameIndex CYBI Y 0 24
+   FrameIndex CYBI Z 0 25
+   FrameIndex CYBO A 0 26
+   FrameIndex CYBO B 0 27
+   FrameIndex CYBO C 0 28
+   FrameIndex CYBO D 0 29
+   FrameIndex CYBO E 0 30
+   FrameIndex CYBO F 0 31
+   FrameIndex CYBO G 0 32
+   FrameIndex CYBO H 0 33
+   FrameIndex CYBO I 0 34
+   
+   FrameIndex CYBW A 0 35
+   FrameIndex CYBW B 0 36
+   FrameIndex CYBW C 0 37
+   FrameIndex CYBW D 0 38
+   FrameIndex CYBW E 0 39
+   FrameIndex CYBW F 0 40
+   FrameIndex CYBW G 0 41
+   FrameIndex CYBW H 0 42
+   FrameIndex CYBW I 0 43
+   FrameIndex CYBW J 0 44
+   FrameIndex CYBW K 0 45
+   FrameIndex CYBW L 0 46
+   FrameIndex CYBW M 0 47
+   FrameIndex CYBW N 0 48
+   FrameIndex CYBW O 0 49
+   FrameIndex CYBW P 0 50
+   
+   FrameIndex CYBM A 0 51
+   FrameIndex CYBM B 0 52
+   FrameIndex CYBM C 0 53
+   FrameIndex CYBM D 0 54
+   FrameIndex CYBM E 0 55
+   FrameIndex CYBM F 0 56
+   FrameIndex CYBM G 0 57
+   FrameIndex CYBM H 0 58
+   FrameIndex CYBM I 0 59
+   FrameIndex CYBM J 0 60
+   FrameIndex CYBM K 0 61
+   FrameIndex CYBM L 0 62
+   FrameIndex CYBM M 0 63
+   FrameIndex CYBM N 0 64
+   FrameIndex CYBM O 0 65
+   
+   FrameIndex CYBN A 0 66
+   FrameIndex CYBN B 0 67
+   FrameIndex CYBN C 0 68
+   FrameIndex CYBN D 0 69
+   FrameIndex CYBN E 0 70
+   FrameIndex CYBN F 0 71
+   FrameIndex CYBN G 0 72
+   FrameIndex CYBN H 0 73
+   FrameIndex CYBN I 0 74
+   FrameIndex CYBN J 0 75
+   FrameIndex CYBN K 0 76
+   FrameIndex CYBN L 0 77
+   FrameIndex CYBN M 0 78
+   FrameIndex CYBN N 0 79
+   FrameIndex CYBN O 0 80
+   FrameIndex CYBN P 0 81
+   FrameIndex CYBN Q 0 82
+   FrameIndex CYBN R 0 83
+   FrameIndex CYBN S 0 84
+   FrameIndex CYBN T 0 85
+}
+
+Model D3WraithBody
+{ 
+   Path "MD3/Wraith"
+   SKIN 0 "wraith_rev.jpg"
+   MODEL 0 "Wraith.md3"
+   Scale 1.0 1.0 1.0
+   
+   FrameIndex IMPD A 0 86
+   FrameIndex IMPD B 0 87
+   FrameIndex IMPD C 0 88
+   FrameIndex IMPD D 0 89
+   FrameIndex IMPD E 0 90
+   FrameIndex IMPD F 0 91
+   FrameIndex IMPD G 0 92
+   FrameIndex IMPD H 0 93
+   FrameIndex IMPD I 0 94
+   FrameIndex IMPD J 0 95
+   FrameIndex IMPD K 0 96
+   FrameIndex IMPD L 0 97
+   FrameIndex IMPD M 0 98
+   FrameIndex IMPD N 0 99
+   FrameIndex IMPD O 0 100
+   FrameIndex IMPD P 0 101
+   FrameIndex IMPD Q 0 102
+   FrameIndex IMPD R 0 103
+   FrameIndex IMPD S 0 104
+   FrameIndex IMPD T 0 105
+}
+
+Model D3Commando
+{ 
+   Path "MD3/COMMANDO"
+   SKIN 0 "zcc_rev.jpg"
+   MODEL 0 "Commando.md3"
+   Scale 1.0 1.0 1.0
+   
+   FrameIndex CYBI A 0 0
+   FrameIndex CYBI B 0 1
+   FrameIndex CYBI C 0 2
+   FrameIndex CYBI D 0 3
+   FrameIndex CYBI E 0 4
+   FrameIndex CYBI F 0 5
+   FrameIndex CYBI G 0 6
+   FrameIndex CYBI H 0 7
+   FrameIndex CYBI I 0 8
+   FrameIndex CYBI J 0 9
+   FrameIndex CYBI K 0 10
+   FrameIndex CYBI L 0 11
+   FrameIndex CYBI M 0 12
+   FrameIndex CYBI N 0 13
+   FrameIndex CYBI O 0 14
+   FrameIndex CYBI P 0 15
+   FrameIndex CYBI Q 0 16
+   FrameIndex CYBI R 0 17
+   FrameIndex CYBI S 0 18
+   FrameIndex CYBI T 0 19
+   FrameIndex CYBI U 0 20
+   FrameIndex CYBI V 0 21
+   FrameIndex CYBI W 0 22
+   FrameIndex CYBI X 0 23
+   FrameIndex CYBI Y 0 24
+   FrameIndex CYBI Z 0 25
+   FrameIndex CYBU A 0 26
+   FrameIndex CYBU B 0 27
+   FrameIndex CYBU C 0 28
+   FrameIndex CYBU D 0 29
+   FrameIndex CYBU E 0 30
+   FrameIndex CYBU F 0 31
+   FrameIndex CYBU G 0 32
+   FrameIndex CYBU H 0 33
+   FrameIndex CYBU I 0 34
+   FrameIndex CYBU J 0 35
+   FrameIndex CYBU K 0 36
+   FrameIndex CYBU L 0 37
+   FrameIndex CYBU M 0 38
+   FrameIndex CYBU N 0 39
+   FrameIndex CYBU O 0 40
+   FrameIndex CYBU P 0 41
+   FrameIndex CYBU Q 0 42
+   FrameIndex CYBU R 0 43
+   FrameIndex CYBU S 0 44
+   FrameIndex CYBU T 0 45
+   FrameIndex CYBU U 0 46
+   FrameIndex CYBU V 0 47
+   FrameIndex CYBU W 0 48
+   FrameIndex CYBU X 0 49
+   FrameIndex CYBU Y 0 50
+   FrameIndex CYBU Z 0 51
+   FrameIndex CYBO A 0 52
+   FrameIndex CYBO B 0 53
+   FrameIndex CYBO C 0 54
+   FrameIndex CYBO D 0 55
+   FrameIndex CYBO E 0 56
+   FrameIndex CYBO F 0 57
+   FrameIndex CYBO G 0 58
+   FrameIndex CYBO H 0 59
+   FrameIndex CYBO I 0 60
+   FrameIndex CYBO J 0 61
+   FrameIndex CYBO K 0 62
+   FrameIndex CYBO L 0 63
+   FrameIndex CYBO M 0 64
+   FrameIndex CYBO N 0 65
+   FrameIndex CYBO O 0 66
+   FrameIndex CYBO P 0 67
+   FrameIndex CYBO Q 0 68
+   FrameIndex CYBO R 0 69
+   FrameIndex CYBO S 0 70
+   FrameIndex CYBO T 0 71
+   FrameIndex CYBO U 0 72
+   FrameIndex CYBO V 0 73
+   FrameIndex CYBO W 0 74
+   
+   FrameIndex CYBW A 0 75
+   FrameIndex CYBW B 0 76
+   FrameIndex CYBW C 0 77
+   FrameIndex CYBW D 0 78
+   FrameIndex CYBW E 0 79
+   FrameIndex CYBW F 0 80
+   FrameIndex CYBW G 0 81
+   FrameIndex CYBW H 0 82
+   FrameIndex CYBW I 0 83
+   FrameIndex CYBW J 0 84
+   FrameIndex CYBW K 0 85
+   FrameIndex CYBW L 0 86
+   FrameIndex CYBW M 0 87
+   FrameIndex CYBW N 0 88
+   FrameIndex CYBW O 0 89
+   FrameIndex CYBW P 0 90
+   FrameIndex CYBW Q 0 91
+   FrameIndex CYBW R 0 92
+   
+   FrameIndex CYBF A 0 93
+   FrameIndex CYBF B 0 94
+   FrameIndex CYBF C 0 95
+   FrameIndex CYBF D 0 96
+   FrameIndex CYBF E 0 97
+   FrameIndex CYBF F 0 98
+   FrameIndex CYBF G 0 99
+   FrameIndex CYBF H 0 100
+   FrameIndex CYBF I 0 101
+   FrameIndex CYBF J 0 102
+   FrameIndex CYBF K 0 103
+   FrameIndex CYBF L 0 104
+   FrameIndex CYBF M 0 105
+   FrameIndex CYBF N 0 106
+   FrameIndex CYBF O 0 107
+   FrameIndex CYBF P 0 108
+   FrameIndex CYBF Q 0 109
+   FrameIndex CYBF R 0 110
+   FrameIndex CYBF S 0 111
+   FrameIndex CYBF T 0 112
+   FrameIndex CYBF U 0 113
+   FrameIndex CYBF V 0 114
+   FrameIndex CYBF W 0 115
+}
+
+Model D3CommandoBody
+{ 
+   Path "MD3/COMMANDO"
+   SKIN 0 "zcc_rev.jpg"
+   MODEL 0 "Commando.md3"
+   Scale 1.0 1.0 1.0
+   
+   FrameIndex CYBD A 0 116
+   FrameIndex CYBD B 0 117
+   FrameIndex CYBD C 0 118
+   FrameIndex CYBD D 0 119
+   FrameIndex CYBD E 0 120
+   FrameIndex CYBD F 0 121
+   FrameIndex CYBD G 0 122
+   FrameIndex CYBD H 0 123
+   FrameIndex CYBD I 0 124
+   FrameIndex CYBD J 0 125
+   FrameIndex CYBD K 0 126
+   FrameIndex CYBD L 0 127
+   FrameIndex CYBD M 0 128
+   FrameIndex CYBD N 0 129
+   FrameIndex CYBD O 0 130
+   FrameIndex CYBD P 0 131
+   FrameIndex CYBD Q 0 132
+   FrameIndex CYBD R 0 133
+   FrameIndex CYBD S 0 134
+   FrameIndex CYBD T 0 135
+   FrameIndex CYBD U 0 136
+   FrameIndex CYBD V 0 137
+   FrameIndex CYBD W 0 138
+   FrameIndex CYBD X 0 139
+   FrameIndex CYBD Y 0 140
+}
+
+Model D3ShotgunGuy
+{ 
+   Path "MD3/SHOTGUY"
+   SKIN 0 "zsec.jpg"
+   MODEL 0 "Shotguy.md3"
+   Scale 1.0 1.0 1.0
+   
+   FrameIndex CYBI A 0 0
+   FrameIndex CYBI B 0 1
+   FrameIndex CYBI C 0 2
+   FrameIndex CYBI D 0 3
+   FrameIndex CYBI E 0 4
+   FrameIndex CYBI F 0 5
+   FrameIndex CYBI G 0 6
+   FrameIndex CYBI H 0 7
+   FrameIndex CYBI I 0 8
+   FrameIndex CYBI J 0 9
+   FrameIndex CYBI K 0 10
+   FrameIndex CYBI L 0 11
+   FrameIndex CYBI M 0 12
+   
+   FrameIndex CYBW A 0 13
+   FrameIndex CYBW B 0 14
+   FrameIndex CYBW C 0 15
+   FrameIndex CYBW D 0 16
+   FrameIndex CYBW E 0 17
+   FrameIndex CYBW F 0 18
+   FrameIndex CYBW G 0 19
+   FrameIndex CYBW H 0 20
+   FrameIndex CYBW I 0 21
+   FrameIndex CYBW J 0 22
+   FrameIndex CYBW K 0 23
+   FrameIndex CYBW L 0 24
+   FrameIndex CYBW M 0 25
+   FrameIndex CYBW N 0 26
+   FrameIndex CYBW O 0 27
+   FrameIndex CYBW P 0 28
+   FrameIndex CYBW Q 0 29
+   FrameIndex CYBW R 0 30
+   FrameIndex CYBW S 0 31
+   FrameIndex CYBW T 0 32
+   FrameIndex CYBW U 0 33
+   
+   FrameIndex CYBF A 0 34
+   FrameIndex CYBF B 0 35
+   FrameIndex CYBF C 0 36
+   FrameIndex CYBF D 0 37
+   FrameIndex CYBF E 0 38
+   FrameIndex CYBF F 0 39
+   FrameIndex CYBF G 0 40
+   FrameIndex CYBF H 0 41
+   FrameIndex CYBF I 0 42
+   FrameIndex CYBF J 0 43
+   FrameIndex CYBF K 0 44
+   FrameIndex CYBF L 0 45
+   FrameIndex CYBF M 0 46
+   FrameIndex CYBF N 0 47
+   FrameIndex CYBF O 0 48
+   FrameIndex CYBF P 0 49
+   FrameIndex CYBF Q 0 50
+   FrameIndex CYBF R 0 51
+   FrameIndex CYBF S 0 52
+   FrameIndex CYBF T 0 53
+   FrameIndex CYBF U 0 54
+   FrameIndex CYBF V 0 55
+   FrameIndex CYBF W 0 56
+}
+
+Model D3ShotgunGuyBody
+{ 
+   Path "MD3/SHOTGUY"
+   SKIN 0 "zsec.jpg"
+   MODEL 0 "Shotguy.md3"
+   Scale 1.0 1.0 1.0
+   
+   FrameIndex CYBD A 0 57
+   FrameIndex CYBD B 0 58
+   FrameIndex CYBD C 0 59
+   FrameIndex CYBD D 0 60
+   FrameIndex CYBD E 0 61
+   FrameIndex CYBD F 0 62
+   FrameIndex CYBD G 0 63
+   FrameIndex CYBD H 0 64
+   FrameIndex CYBD I 0 65
+   FrameIndex CYBD J 0 66
+   FrameIndex CYBD K 0 67
+   FrameIndex CYBD L 0 68
+   FrameIndex CYBD M 0 69
+   FrameIndex CYBD N 0 70
+}
+
+Model D3Forgotten
+{ 
+   Path "MD3/FORGOTTEN"
+   SKIN 0 "forg_rev.jpg"
+   MODEL 0 "Forgotten.md3"
+   Scale 1.0 1.0 1.0
+   zoffset 28
+   
+   FrameIndex SKUL A 0 0
+   FrameIndex SKUL C 0 0
+   FrameIndex SKUL B 0 1
+}
+
+Model D3Pinky
+{ 
+   Path "MD3/PINKY"
+   SKIN 0 "pinky.png"
+   MODEL 0 "D3Pinky.md3"
+   Scale 0.9 0.9 0.9
+   
+   FrameIndex CYBI A 0 0
+   FrameIndex CYBI B 0 1
+   FrameIndex CYBI C 0 2
+   FrameIndex CYBI D 0 3
+   FrameIndex CYBI E 0 4
+   FrameIndex CYBI F 0 5
+   FrameIndex CYBI G 0 6
+   FrameIndex CYBI H 0 7
+   FrameIndex CYBI I 0 8
+   FrameIndex CYBI J 0 9
+   FrameIndex CYBI K 0 10
+   FrameIndex CYBI L 0 11
+   FrameIndex CYBI M 0 12
+   FrameIndex CYBI N 0 13
+   FrameIndex CYBI O 0 14
+   FrameIndex CYBI P 0 15
+   
+   FrameIndex CYBW A 0 16
+   FrameIndex CYBW B 0 17
+   FrameIndex CYBW C 0 18
+   FrameIndex CYBW D 0 19
+   FrameIndex CYBW E 0 20
+   FrameIndex CYBW F 0 21
+   FrameIndex CYBW G 0 22
+   FrameIndex CYBW H 0 23
+   FrameIndex CYBW I 0 24
+   FrameIndex CYBW J 0 25
+   FrameIndex CYBW K 0 26
+   FrameIndex CYBW L 0 27
+   FrameIndex CYBW M 0 28
+   FrameIndex CYBW N 0 29
+   FrameIndex CYBW O 0 30
+   FrameIndex CYBW P 0 31
+   FrameIndex CYBW Q 0 32
+   FrameIndex CYBW R 0 33
+   FrameIndex CYBW S 0 34
+   FrameIndex CYBW T 0 35
+   FrameIndex CYBW U 0 36
+   FrameIndex CYBW V 0 37
+   
+   FrameIndex CYBM A 0 37
+   FrameIndex CYBM B 0 38
+   FrameIndex CYBM C 0 39
+   FrameIndex CYBM D 0 40
+   FrameIndex CYBM E 0 41
+   FrameIndex CYBM F 0 42
+   FrameIndex CYBM G 0 43
+   FrameIndex CYBM H 0 44
+   FrameIndex CYBM I 0 45
+   FrameIndex CYBM J 0 46
+   FrameIndex CYBM K 0 47
+   FrameIndex CYBM L 0 48
+   FrameIndex CYBM M 0 49
+   FrameIndex CYBM N 0 50
+   FrameIndex CYBM O 0 51
+   FrameIndex CYBM P 0 52
+   FrameIndex CYBM Q 0 53
+   FrameIndex CYBM R 0 54
+   FrameIndex CYBM S 0 56
+   FrameIndex CYBM T 0 57
+   
+   FrameIndex CYAM A 0 58
+   FrameIndex CYAM B 0 59
+   FrameIndex CYAM C 0 60
+   FrameIndex CYAM D 0 61
+   FrameIndex CYAM E 0 62
+   FrameIndex CYAM F 0 63
+   FrameIndex CYAM G 0 64
+   FrameIndex CYAM H 0 65
+   FrameIndex CYAM I 0 66
+   FrameIndex CYAM J 0 67
+   FrameIndex CYAM K 0 68
+   FrameIndex CYAM L 0 69
+   FrameIndex CYAM M 0 70
+   FrameIndex CYAM N 0 71
+   FrameIndex CYAM O 0 72
+   FrameIndex CYAM P 0 73
+   FrameIndex CYAM Q 0 74
+   FrameIndex CYAM R 0 75
+   FrameIndex CYAM S 0 76
+   FrameIndex CYAM T 0 77
+   FrameIndex CYAM U 0 78
+   FrameIndex CYAM V 0 79
+   FrameIndex CYAM W 0 80
+}
+
+Model D3PinkyBody
+{ 
+   Path "MD3/PINKY"
+   SKIN 0 "pinky.png"
+   MODEL 0 "D3Pinky.md3"
+   Scale 0.9 0.9 0.9
+   
+   FrameIndex PKDE A 0 81
+   FrameIndex PKDE B 0 82
+   FrameIndex PKDE C 0 83
+   FrameIndex PKDE D 0 84
+   FrameIndex PKDE E 0 85
+   FrameIndex PKDE F 0 86
+   FrameIndex PKDE G 0 87
+   FrameIndex PKDE H 0 88
+   FrameIndex PKDE I 0 89
+   FrameIndex PKDE J 0 90
+   FrameIndex PKDE K 0 91
+   FrameIndex PKDE L 0 92
+   FrameIndex PKDE M 0 93
+   FrameIndex PKDE N 0 94
+   FrameIndex PKDE O 0 95
+}
+
+Model D3Maggot
+{ 
+   Path "MD3/MAGGOT"
+   SKIN 0 "maggot_rev.png"
+   MODEL 0 "Maggot.md3"
+   Scale 1.0 1.0 1.0
+   
+   FrameIndex CYBI A 0 0
+   FrameIndex CYBI B 0 1
+   FrameIndex CYBI C 0 2
+   FrameIndex CYBI D 0 3
+   FrameIndex CYBI E 0 4
+   FrameIndex CYBI F 0 5
+   FrameIndex CYBI G 0 6
+   FrameIndex CYBI H 0 7
+   FrameIndex CYBI I 0 8
+   FrameIndex CYBI J 0 9
+   FrameIndex CYBI K 0 10
+   FrameIndex CYBI L 0 11
+   FrameIndex CYBI M 0 12
+   FrameIndex CYBI N 0 13
+   FrameIndex CYBI O 0 14
+   FrameIndex CYBI P 0 15
+   FrameIndex CYBI Q 0 16
+   FrameIndex CYBI R 0 17
+   FrameIndex CYBI S 0 18
+   FrameIndex CYBI T 0 19
+   FrameIndex CYBI V 0 20
+   FrameIndex CYBI W 0 21
+   FrameIndex CYBI X 0 22
+   FrameIndex CYBI Y 0 23
+   FrameIndex CYBI Z 0 24
+   FrameIndex CYBO A 0 25
+   FrameIndex CYBO B 0 26
+   FrameIndex CYBO C 0 27
+   FrameIndex CYBO D 0 28
+   FrameIndex CYBO E 0 29
+   FrameIndex CYBO F 0 30
+   FrameIndex CYBO G 0 31
+   FrameIndex CYBO H 0 32
+   FrameIndex CYBO I 0 33
+   FrameIndex CYBO J 0 34
+   FrameIndex CYBO K 0 35
+   FrameIndex CYBO L 0 36
+   FrameIndex CYBO M 0 37
+   FrameIndex CYBO N 0 38
+   FrameIndex CYBO O 0 39
+   FrameIndex CYBO P 0 40
+   FrameIndex CYBO Q 0 41
+   FrameIndex CYBO R 0 42
+   FrameIndex CYBO S 0 43
+   FrameIndex CYBO T 0 44
+   
+   FrameIndex CYBW A 0 45
+   FrameIndex CYBW B 0 46
+   FrameIndex CYBW C 0 47
+   FrameIndex CYBW D 0 48
+   FrameIndex CYBW E 0 49
+   FrameIndex CYBW F 0 50
+   FrameIndex CYBW G 0 51
+   FrameIndex CYBW H 0 52
+   FrameIndex CYBW I 0 53
+   FrameIndex CYBW J 0 54
+   FrameIndex CYBW K 0 55
+   FrameIndex CYBW L 0 56
+   FrameIndex CYBW M 0 57
+   FrameIndex CYBW N 0 58
+   FrameIndex CYBW O 0 59
+   FrameIndex CYBW P 0 60
+   FrameIndex CYBW Q 0 61
+   FrameIndex CYBW R 0 62
+   FrameIndex CYBW S 0 63
+   FrameIndex CYBW T 0 64
+   FrameIndex CYBW U 0 65
+   FrameIndex CYBW V 0 66
+   FrameIndex CYBW W 0 67
+   FrameIndex CYBW X 0 68
+   FrameIndex CYBW Y 0 69
+   FrameIndex CYBW Z 0 70
+   
+   FrameIndex CYBM A 0 72
+   FrameIndex CYBM B 0 73
+   FrameIndex CYBM C 0 74
+   FrameIndex CYBM D 0 75
+   FrameIndex CYBM E 0 76
+   FrameIndex CYBM F 0 77
+   FrameIndex CYBM G 0 78
+   FrameIndex CYBM H 0 79
+   FrameIndex CYBM I 0 80
+   FrameIndex CYBM J 0 81
+   FrameIndex CYBM K 0 82
+   FrameIndex CYBM L 0 83
+   FrameIndex CYBM M 0 84
+   FrameIndex CYBM N 0 85
+   FrameIndex CYBM O 0 86
+   
+   FrameIndex CYBN A 0 87
+   FrameIndex CYBN B 0 88
+   FrameIndex CYBN C 0 89
+   FrameIndex CYBN D 0 90
+   FrameIndex CYBN E 0 91
+   FrameIndex CYBN F 0 92
+   FrameIndex CYBN G 0 93
+   FrameIndex CYBN H 0 94
+   FrameIndex CYBN I 0 95
+   FrameIndex CYBN J 0 96
+   FrameIndex CYBN K 0 97
+   FrameIndex CYBN L 0 98
+   FrameIndex CYBN M 0 99
+   FrameIndex CYBN N 0 100
+   FrameIndex CYBN O 0 101
+   FrameIndex CYBN P 0 102
+   FrameIndex CYBN Q 0 103
+}
+
+Model D3MaggotBody
+{ 
+   Path "MD3/MAGGOT"
+   SKIN 0 "maggot_rev.png"
+   MODEL 0 "Maggot.md3"
+   Scale 1.0 1.0 1.0
+   
+   FrameIndex IMPD A 0 104
+   FrameIndex IMPD B 0 105
+   FrameIndex IMPD C 0 106
+   FrameIndex IMPD D 0 107
+   FrameIndex IMPD E 0 108
+   FrameIndex IMPD F 0 109
+   FrameIndex IMPD G 0 110
+   FrameIndex IMPD H 0 111
+   FrameIndex IMPD I 0 112
+   FrameIndex IMPD J 0 113
+   FrameIndex IMPD K 0 114
+   FrameIndex IMPD L 0 115
+   FrameIndex IMPD M 0 116
+   FrameIndex IMPD N 0 117
+   FrameIndex IMPD O 0 118
+   FrameIndex IMPD P 0 119
+   FrameIndex IMPD Q 0 120
+}
+
+Model D3Vulgar
+{ 
+   Path "MD3/Vulgar"
+   SKIN 0 "vulgar_rev.jpg"
+   MODEL 0 "Vulgar.md3"
+   Scale 1.0 1.0 1.0
+   
+   FrameIndex CYBI A 0 0
+   FrameIndex CYBI B 0 1
+   FrameIndex CYBI C 0 2
+   FrameIndex CYBI D 0 3
+   FrameIndex CYBI E 0 4
+   FrameIndex CYBI F 0 5
+   FrameIndex CYBI G 0 6
+   FrameIndex CYBI H 0 7
+   FrameIndex CYBI I 0 8
+   FrameIndex CYBI J 0 9
+   FrameIndex CYBI K 0 10
+   FrameIndex CYBI L 0 11
+   FrameIndex CYBI M 0 12
+   FrameIndex CYBI N 0 13
+   FrameIndex CYBI O 0 14
+   FrameIndex CYBI P 0 15
+   FrameIndex CYBI Q 0 16
+   FrameIndex CYBI R 0 17
+   FrameIndex CYBI S 0 18
+   FrameIndex CYBI T 0 19
+   FrameIndex CYBI U 0 20
+   FrameIndex CYBI V 0 21
+   FrameIndex CYBI W 0 22
+   FrameIndex CYBI X 0 23
+   FrameIndex CYBI Y 0 24
+   FrameIndex CYBI Z 0 25
+   FrameIndex CYBO A 0 26
+   FrameIndex CYBO B 0 27
+   FrameIndex CYBO C 0 28
+   FrameIndex CYBO D 0 29
+   FrameIndex CYBO E 0 30
+   FrameIndex CYBO F 0 31
+   FrameIndex CYBO G 0 32
+   FrameIndex CYBO H 0 33
+   FrameIndex CYBO I 0 34
+   FrameIndex CYBO J 0 35
+   FrameIndex CYBO K 0 36
+   
+   FrameIndex CYBW A 0 37
+   FrameIndex CYBW B 0 38
+   FrameIndex CYBW C 0 39
+   FrameIndex CYBW D 0 40
+   FrameIndex CYBW E 0 41
+   FrameIndex CYBW F 0 42
+   FrameIndex CYBW G 0 43
+   FrameIndex CYBW H 0 44
+   FrameIndex CYBW I 0 45
+   FrameIndex CYBW J 0 46
+   FrameIndex CYBW K 0 47
+   FrameIndex CYBW L 0 48
+   FrameIndex CYBW M 0 49
+   FrameIndex CYBW N 0 50
+   FrameIndex CYBW O 0 51
+   FrameIndex CYBW P 0 52
+   FrameIndex CYBW Q 0 53
+   FrameIndex CYBW R 0 54
+   FrameIndex CYBW S 0 56
+   FrameIndex CYBW T 0 57
+   FrameIndex CYBW U 0 58
+   FrameIndex CYBW V 0 59
+   FrameIndex CYBW W 0 60
+   FrameIndex CYBW X 0 61
+   
+   FrameIndex CYBF A 0 62
+   FrameIndex CYBF B 0 63
+   FrameIndex CYBF C 0 64
+   FrameIndex CYBF D 0 65
+   FrameIndex CYBF E 0 66
+   FrameIndex CYBF F 0 67
+   FrameIndex CYBF G 0 68
+   FrameIndex CYBF H 0 69
+   FrameIndex CYBF I 0 70
+   FrameIndex CYBF J 0 71
+   FrameIndex CYBF K 0 72
+   FrameIndex CYBF L 0 73
+   FrameIndex CYBF M 0 74
+   FrameIndex CYBF N 0 75
+   FrameIndex CYBF O 0 76
+   FrameIndex CYBF P 0 77
+   FrameIndex CYBF Q 0 78
+   FrameIndex CYBF R 0 79
+   FrameIndex CYBF S 0 80
+   FrameIndex CYBF T 0 81
+   
+   FrameIndex CYBM A 0 82
+   FrameIndex CYBM B 0 83
+   FrameIndex CYBM C 0 84
+   FrameIndex CYBM D 0 85
+   FrameIndex CYBM E 0 86
+   FrameIndex CYBM F 0 87
+   FrameIndex CYBM G 0 88
+   FrameIndex CYBM H 0 89
+   FrameIndex CYBM I 0 90
+   FrameIndex CYBM J 0 91
+   FrameIndex CYBM K 0 92
+   FrameIndex CYBM L 0 93
+   FrameIndex CYBM M 0 94
+   FrameIndex CYBM N 0 95
+   FrameIndex CYBM O 0 96
+   FrameIndex CYBM P 0 97
+   FrameIndex CYBM Q 0 98
+}
+
+Model D3VulgarBody
+{ 
+   Path "MD3/Vulgar"
+   SKIN 0 "vulgar_rev.jpg"
+   MODEL 0 "Vulgar.md3"
+   Scale 1.0 1.0 1.0
+   
+   FrameIndex IMPD A 0 99
+   FrameIndex IMPD B 0 100
+   FrameIndex IMPD C 0 101
+   FrameIndex IMPD D 0 102
+   FrameIndex IMPD E 0 103
+   FrameIndex IMPD F 0 104
+   FrameIndex IMPD G 0 105
+   FrameIndex IMPD H 0 106
+   FrameIndex IMPD I 0 107
+   FrameIndex IMPD J 0 108
+   FrameIndex IMPD K 0 109
+   FrameIndex IMPD L 0 110
+   FrameIndex IMPD M 0 111
+   FrameIndex IMPD N 0 112
+   FrameIndex IMPD O 0 113
+   FrameIndex IMPD P 0 114
+   FrameIndex IMPD Q 0 115
+}

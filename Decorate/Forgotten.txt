@@ -1,0 +1,75 @@
+ACTOR D3Forgotten : Lostsoul
+{
+Health 70
+	Radius 16
+	Height 56
+	Mass 50
+	Speed 1
+	Damage 3
+	PainChance 256
+	+FLOAT
+	+DONTFALL
+	+NOGRAVITY
+	+NOICEDEATH
+	+THRUSPECIES
+	-FLOORCLIP
+	+BRIGHT
+	AttackSound "forgmelee"
+	PainSound "forgpain"
+	DeathSound "forgdeath"
+	ActiveSound "forgactive"
+	Obituary "$OB_FORGOTTEN"
+	HitObituary "$OB_FORGOTTEN"
+	Scale 0.80
+	States
+	{
+	Spawn:
+		SKUL A 1 A_LookEx(0,0,0,0,120,"See")
+		Loop
+	See:
+	    SKUL C 1 A_Chase
+		Loop
+	Missile:
+		SKUL B 2 A_FaceTarget
+		SKUL B 0
+		SKUL B 2 A_FaceTarget
+		SKUL B 0
+		SKUL B 2 A_FaceTarget
+		SKUL B 0
+		SKUL B 2 A_FaceTarget
+		SKUL B 0
+		SKUL B 2 A_FaceTarget
+		SKUL B 0
+		SKUL B 2 A_FaceTarget
+		SKUL B 0
+		SKUL B 2 A_FaceTarget
+		SKUL B 0
+		SKUL B 2 A_FaceTarget
+		SKUL B 0
+		SKUL B 2 A_FaceTarget
+		SKUL B 0
+		SKUL B 2 A_FaceTarget
+		SKUL B 0
+		SKUL B 0 A_SkullAttack
+		Goto Charging
+	Charging:
+		SKUL B 0
+		SKUL B 1 A_JumpIf((momx+momy)<4,"See")
+		Loop
+	Pain:
+		SKUL C 1
+		SKUL C 1 A_Pain
+		Goto See
+	Death:
+	    TNT1 A 1 A_Scream
+		TNT1 A 1 A_Fall
+		Stop
+	}
+}
+
+Actor Lostspawner : RandomSpawner Replaces Lostsoul
+{
+
+     DropItem "D3Forgotten" ,255 ,1
+
+}

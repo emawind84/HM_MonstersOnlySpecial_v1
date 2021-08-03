@@ -1,0 +1,658 @@
+Model D4Pinky
+{ 
+   Path "MD3/PINKY"
+   MODEL 0 "D4Pinky.md3"
+   Scale 0.8 0.8 0.8
+   
+   FrameIndex CYBI A 0 0
+   FrameIndex CYBI B 0 1
+   FrameIndex CYBI C 0 2
+   FrameIndex CYBI D 0 3
+   FrameIndex CYBI E 0 4
+   FrameIndex CYBI F 0 5
+   FrameIndex CYBI G 0 6
+   FrameIndex CYBI H 0 7
+   FrameIndex CYBI I 0 8
+   FrameIndex CYBI J 0 9
+   FrameIndex CYBI K 0 10
+   FrameIndex CYBI L 0 11
+   FrameIndex CYBI M 0 12
+   FrameIndex CYBI N 0 13
+   FrameIndex CYBI O 0 14
+   FrameIndex CYBI P 0 15
+   FrameIndex CYBI Q 0 16
+   FrameIndex CYBI R 0 17
+   FrameIndex CYBI S 0 18
+   FrameIndex CYBI T 0 19
+   FrameIndex CYBI U 0 20
+   FrameIndex CYBI V 0 21
+   FrameIndex CYBI W 0 22
+   FrameIndex CYBI X 0 23
+   FrameIndex CYBI Y 0 24
+   FrameIndex CYBI Z 0 25
+   
+   FrameIndex CYBW A 0 27
+   FrameIndex CYBW B 0 28
+   FrameIndex CYBW C 0 29
+   FrameIndex CYBW D 0 30
+   FrameIndex CYBW E 0 31
+   FrameIndex CYBW F 0 32
+   FrameIndex CYBW G 0 33
+   FrameIndex CYBW H 0 34
+   FrameIndex CYBW I 0 35
+   FrameIndex CYBW J 0 36
+   FrameIndex CYBW K 0 37
+   FrameIndex CYBW L 0 38
+   FrameIndex CYBW M 0 39
+   FrameIndex CYBW N 0 40
+   FrameIndex CYBW O 0 41
+   FrameIndex CYBW P 0 42
+   FrameIndex CYBW Q 0 43
+   FrameIndex CYBW R 0 44
+   FrameIndex CYBW S 0 45
+   FrameIndex CYBW T 0 46
+   FrameIndex CYBW U 0 47
+   FrameIndex CYBW V 0 48
+   FrameIndex CYBW W 0 49
+   FrameIndex CYBW X 0 50
+   FrameIndex CYBW Y 0 51
+   FrameIndex CYBW Z 0 52
+   FrameIndex CYW2 A 0 53
+   
+   FrameIndex CYBM A 0 54
+   FrameIndex CYBM B 0 55
+   FrameIndex CYBM C 0 56
+   FrameIndex CYBM D 0 57
+   FrameIndex CYBM E 0 58
+   FrameIndex CYBM F 0 59
+   FrameIndex CYBM G 0 60
+   FrameIndex CYBM H 0 61
+   FrameIndex CYBM I 0 62
+   FrameIndex CYBM J 0 63
+   FrameIndex CYBM K 0 64
+   FrameIndex CYBM L 0 65
+   FrameIndex CYBM M 0 66
+   FrameIndex CYBM N 0 67
+   FrameIndex CYBM O 0 68
+   FrameIndex CYBM P 0 69
+   FrameIndex CYBM Q 0 70
+   FrameIndex CYBM R 0 71
+   FrameIndex CYBM S 0 72
+   FrameIndex CYBM T 0 73
+   FrameIndex CYBM U 0 74
+   FrameIndex CYBM V 0 75
+   FrameIndex CYBM W 0 76
+   FrameIndex CYBM X 0 77
+   FrameIndex CYBM Y 0 78
+   FrameIndex CYBM Z 0 79
+   
+   FrameIndex CYAM A 0 80
+   FrameIndex CYAM B 0 81
+   FrameIndex CYAM C 0 82
+   FrameIndex CYAM D 0 83
+   FrameIndex CYAM E 0 84
+   FrameIndex CYAM F 0 85
+   FrameIndex CYAM G 0 86
+   FrameIndex CYAM H 0 87
+   FrameIndex CYAM I 0 88
+   FrameIndex CYAM J 0 89
+   FrameIndex CYAM K 0 90
+   FrameIndex CYAM L 0 91
+   FrameIndex CYAM M 0 92
+   FrameIndex CYAM N 0 93
+   FrameIndex CYAM O 0 94
+   FrameIndex CYAM P 0 95
+   FrameIndex CYAM Q 0 96
+   FrameIndex CYAM R 0 97
+   FrameIndex CYAM S 0 98
+   FrameIndex CYAM T 0 99
+   FrameIndex CYAM U 0 100
+   FrameIndex CYAM V 0 101
+   FrameIndex CYAM W 0 102
+   FrameIndex CYAM X 0 103
+   FrameIndex CYAM Y 0 104
+   FrameIndex CYAM Z 0 105
+   
+}
+
+Model D4PinkyBody
+{ 
+   Path "MD3/PINKY"
+   MODEL 0 "D4Pinky.md3"
+   Scale 0.8 0.8 0.8
+   
+   FrameIndex PKDE A 0 133
+   FrameIndex PKDE B 0 134
+   FrameIndex PKDE C 0 135
+   FrameIndex PKDE D 0 136
+   FrameIndex PKDE E 0 137
+   FrameIndex PKDE F 0 138
+   FrameIndex PKDE G 0 139
+   FrameIndex PKDE H 0 140
+   FrameIndex PKDE I 0 141
+   FrameIndex PKDE J 0 142
+   FrameIndex PKDE K 0 143
+   FrameIndex PKDE L 0 144
+   FrameIndex PKDE M 0 145
+   FrameIndex PKDE N 0 146
+   FrameIndex PKDE O 0 147
+   FrameIndex PKDE P 0 148
+   FrameIndex PKDE Q 0 149
+   FrameIndex PKDE R 0 150
+   FrameIndex PKDE S 0 151
+   FrameIndex PKDE T 0 152
+   FrameIndex PKDE U 0 153
+   FrameIndex PKDE V 0 154
+   FrameIndex PKDE W 0 155
+   FrameIndex PKDE X 0 156
+   FrameIndex PKDE Y 0 157
+   FrameIndex PKDE Z 0 158
+}
+
+Model D4Cacodemon
+{ 
+   Path "MD3/Caco"
+   MODEL 0 "Cacodemon.md3"
+   Scale 1.0 1.0 1.0
+   
+   FrameIndex CYBI A 0 0
+   FrameIndex CYBI B 0 1
+   FrameIndex CYBI C 0 2
+   FrameIndex CYBI D 0 3
+   FrameIndex CYBI E 0 4
+   FrameIndex CYBI F 0 5
+   FrameIndex CYBI G 0 6
+   FrameIndex CYBI H 0 7
+   FrameIndex CYBI I 0 8
+   FrameIndex CYBI J 0 9
+   FrameIndex CYBI K 0 10
+   FrameIndex CYBI L 0 11
+   FrameIndex CYBI M 0 12
+   FrameIndex CYBI N 0 13
+   FrameIndex CYBI O 0 14
+   FrameIndex CYBI P 0 15
+   
+   FrameIndex CYBW A 0 16
+   FrameIndex CYBW B 0 17
+   FrameIndex CYBW C 0 18
+   FrameIndex CYBW D 0 19
+   FrameIndex CYBW E 0 20
+   FrameIndex CYBW F 0 21
+   FrameIndex CYBW G 0 22
+   FrameIndex CYBW H 0 23
+   FrameIndex CYBW I 0 24
+   FrameIndex CYBW J 0 25
+   FrameIndex CYBW K 0 26
+   FrameIndex CYBW L 0 27
+   FrameIndex CYBW M 0 28
+   FrameIndex CYBW N 0 29
+   FrameIndex CYBW O 0 30
+   FrameIndex CYBW P 0 31
+   FrameIndex CYBW Q 0 32
+   FrameIndex CYBW R 0 33
+   FrameIndex CYBW S 0 34
+   FrameIndex CYBW T 0 35
+   FrameIndex CYBW U 0 36
+   FrameIndex CYBW V 0 37
+   FrameIndex CYBW W 0 38
+   
+   FrameIndex CYBF A 0 52
+   FrameIndex CYBF B 0 53
+   FrameIndex CYBF C 0 54
+   FrameIndex CYBF D 0 55
+   FrameIndex CYBF E 0 56
+   FrameIndex CYBF F 0 57
+   FrameIndex CYBF G 0 58
+   FrameIndex CYBF H 0 59
+   FrameIndex CYBF I 0 60
+   FrameIndex CYBF J 0 61
+   FrameIndex CYBF K 0 62
+   FrameIndex CYBF L 0 63
+   FrameIndex CYBF M 0 64
+   
+   FrameIndex CYBM A 0 39
+   FrameIndex CYBM B 0 40
+   FrameIndex CYBM C 0 41
+   FrameIndex CYBM D 0 42
+   FrameIndex CYBM E 0 43
+   FrameIndex CYBM F 0 44
+   FrameIndex CYBM G 0 45
+   FrameIndex CYBM H 0 46
+   FrameIndex CYBM I 0 47
+   FrameIndex CYBM J 0 48
+   FrameIndex CYBM K 0 49
+   FrameIndex CYBM L 0 50
+   FrameIndex CYBM M 0 51
+}
+
+Model D4CacodemonBody
+{ 
+   Path "MD3/Caco"
+   MODEL 0 "Cacodemon.md3"
+   Scale 1.0 1.0 1.0
+   
+   FrameIndex CCDE A 0 65
+   FrameIndex CCDE B 0 66
+   FrameIndex CCDE C 0 67
+   FrameIndex CCDE D 0 68
+   FrameIndex CCDE E 0 69
+   FrameIndex CCDE F 0 70
+   FrameIndex CCDE G 0 71
+   FrameIndex CCDE H 0 72
+   FrameIndex CCDE I 0 73
+}
+
+Model D4Hellknight
+{ 
+   Path "MD3/HK"
+   SKIN 0 "body.jpg"
+   MODEL 0 "Hellknight.md3"
+   Scale 1.0 1.0 1.0
+   
+   FrameIndex CYBI A 0 0
+   FrameIndex CYBI B 0 1
+   FrameIndex CYBI C 0 2
+   FrameIndex CYBI D 0 3
+   FrameIndex CYBI E 0 4
+   FrameIndex CYBI F 0 5
+   FrameIndex CYBI G 0 6
+   FrameIndex CYBI H 0 7
+   FrameIndex CYBI I 0 8
+   FrameIndex CYBI J 0 9
+   FrameIndex CYBI K 0 10
+   
+   FrameIndex CYBW A 0 11
+   FrameIndex CYBW B 0 12
+   FrameIndex CYBW C 0 13
+   FrameIndex CYBW D 0 14
+   FrameIndex CYBW E 0 15
+   FrameIndex CYBW F 0 16
+   FrameIndex CYBW G 0 17
+   FrameIndex CYBW H 0 18
+   FrameIndex CYBW I 0 19
+   FrameIndex CYBW J 0 20
+   FrameIndex CYBW K 0 21
+   FrameIndex CYBW L 0 22
+   FrameIndex CYBW M 0 23
+   FrameIndex CYBW N 0 24
+   FrameIndex CYBW O 0 25
+   FrameIndex CYBW P 0 26
+   FrameIndex CYBW Q 0 27
+   FrameIndex CYBW R 0 28
+   FrameIndex CYBW S 0 29
+   FrameIndex CYBW T 0 30
+   FrameIndex CYBW U 0 31
+   
+   FrameIndex CYBM A 0 80
+   FrameIndex CYBM B 0 81
+   FrameIndex CYBM C 0 82
+   FrameIndex CYBM D 0 83
+   FrameIndex CYBM E 0 84
+   FrameIndex CYBM F 0 85
+   FrameIndex CYBM G 0 86
+   FrameIndex CYBM H 0 87
+   FrameIndex CYBM I 0 88
+   FrameIndex CYBM J 0 89
+   FrameIndex CYBM K 0 90
+   FrameIndex CYBM L 0 91
+   FrameIndex CYBM M 0 92
+   FrameIndex CYBM N 0 93
+   FrameIndex CYBM O 0 94
+   FrameIndex CYBM P 0 95
+   FrameIndex CYBM Q 0 96
+   FrameIndex CYBM R 0 97
+   FrameIndex CYBM S 0 98
+   FrameIndex CYBM T 0 99
+   FrameIndex CYBM U 0 100
+   
+   FrameIndex CYBN A 0 101
+   FrameIndex CYBN B 0 102
+   FrameIndex CYBN C 0 103
+   FrameIndex CYBN D 0 104
+   FrameIndex CYBN E 0 105
+   FrameIndex CYBN F 0 106
+   FrameIndex CYBN G 0 107
+   FrameIndex CYBN H 0 108
+   FrameIndex CYBN I 0 109
+   FrameIndex CYBN J 0 110
+   FrameIndex CYBN K 0 111
+   FrameIndex CYBN L 0 112
+   FrameIndex CYBN M 0 113
+   FrameIndex CYBN N 0 114
+   
+   FrameIndex CY1L A 0 33
+   FrameIndex CY1L B 0 34
+   FrameIndex CY1L C 0 35
+   FrameIndex CY1L D 0 36
+   FrameIndex CY1L E 0 37
+   FrameIndex CY1L F 0 38
+   FrameIndex CY1L G 0 39
+   FrameIndex CY1L H 0 40
+   FrameIndex CY1L I 0 41
+   FrameIndex CY1L J 0 42
+   FrameIndex CY1L K 0 43
+   FrameIndex CY1L L 0 44
+   FrameIndex CY1L M 0 45
+   FrameIndex CY1L N 0 46
+   FrameIndex CY1L O 0 47
+   FrameIndex CY1L P 0 48
+   FrameIndex CY1L Q 0 49
+   FrameIndex CY1L R 0 50
+   FrameIndex CY1L S 0 51
+   FrameIndex CY1L T 0 52
+   FrameIndex CY1L U 0 53
+}
+
+Model D4HellknightBody
+{ 
+   Path "MD3/HK"
+   SKIN 0 "body.jpg"
+   MODEL 0 "Hellknight.md3"
+   Scale 1.0 1.0 1.0
+   
+   FrameIndex HKDE A 0 134
+   FrameIndex HKDE B 0 135
+   FrameIndex HKDE C 0 136
+   FrameIndex HKDE D 0 137
+   FrameIndex HKDE E 0 138
+   FrameIndex HKDE F 0 139
+   FrameIndex HKDE G 0 140
+   FrameIndex HKDE H 0 141
+   FrameIndex HKDE I 0 142
+   FrameIndex HKDE J 0 143
+   FrameIndex HKDE K 0 144
+   FrameIndex HKDE L 0 145
+   FrameIndex HKDE M 0 146
+   FrameIndex HKDE N 0 147
+   FrameIndex HKDE O 0 148
+   FrameIndex HKDE P 0 149
+   FrameIndex HKDE Q 0 150
+   FrameIndex HKDE R 0 151
+   FrameIndex HKDE S 0 152
+}
+
+Model D4Summoner
+{ 
+   Path "MD3/Summoner"
+   SKIN 0 "Summoner.jpg"
+   MODEL 0 "Summoner.md3"
+   Scale 1.0 1.0 1.0
+   
+   FrameIndex CYBI A 0 21
+   FrameIndex CYBI B 0 22
+   FrameIndex CYBI C 0 23
+   FrameIndex CYBI D 0 24
+   FrameIndex CYBI E 0 25
+   FrameIndex CYBI F 0 26
+   FrameIndex CYBI G 0 27
+   FrameIndex CYBI H 0 28
+   FrameIndex CYBI I 0 29
+   FrameIndex CYBI J 0 30
+   FrameIndex CYBI K 0 31
+   FrameIndex CYBI L 0 32
+   FrameIndex CYBI M 0 33
+   FrameIndex CYBI N 0 34
+   FrameIndex CYBI O 0 35
+   FrameIndex CYBI P 0 36
+   FrameIndex CYBI Q 0 37
+   FrameIndex CYBI R 0 38
+   FrameIndex CYBI S 0 39
+   FrameIndex CYBI T 0 40
+   FrameIndex CYBI U 0 41
+   FrameIndex CYBI V 0 42
+   FrameIndex CYBI W 0 43
+   FrameIndex CYBI X 0 44
+   FrameIndex CYBI Y 0 45
+   FrameIndex CYBI Z 0 46
+   
+   FrameIndex CYBW A 0 59
+   FrameIndex CYBW B 0 60
+   FrameIndex CYBW C 0 61
+   FrameIndex CYBW D 0 62
+   FrameIndex CYBW E 0 63
+   FrameIndex CYBW F 0 64
+   FrameIndex CYBW G 0 65
+   FrameIndex CYBW H 0 66
+   FrameIndex CYBW I 0 67
+   FrameIndex CYBW J 0 68
+   FrameIndex CYBW K 0 69
+   FrameIndex CYBW L 0 70
+   FrameIndex CYBW M 0 71
+   FrameIndex CYBW N 0 72
+   FrameIndex CYBW O 0 73
+   FrameIndex CYBW P 0 74
+   FrameIndex CYBW Q 0 75
+   FrameIndex CYBW R 0 76
+   FrameIndex CYBW S 0 77
+   
+   FrameIndex CYTI A 0 47
+   FrameIndex CYTI B 0 48
+   FrameIndex CYTI C 0 49
+   FrameIndex CYTI D 0 50
+   FrameIndex CYTI E 0 51
+   FrameIndex CYTI F 0 52
+   FrameIndex CYTI G 0 53
+   FrameIndex CYTI H 0 54
+   FrameIndex CYTI I 0 55
+   FrameIndex CYTI J 0 56
+   FrameIndex CYTI K 0 57
+   FrameIndex CYTI L 0 58
+   
+   FrameIndex CYTO A 0 78
+   FrameIndex CYTO B 0 79
+   FrameIndex CYTO C 0 80
+   FrameIndex CYTO D 0 81
+   FrameIndex CYTO E 0 82
+   FrameIndex CYTO F 0 83
+   FrameIndex CYTO G 0 84
+   FrameIndex CYTO H 0 85
+   FrameIndex CYTO I 0 86
+   FrameIndex CYTO J 0 87
+   FrameIndex CYTO K 0 88
+   FrameIndex CYTO L 0 89
+   FrameIndex CYTO M 0 90
+   
+   FrameIndex CYBF A 0 113
+   FrameIndex CYBF B 0 114
+   FrameIndex CYBF C 0 115
+   FrameIndex CYBF D 0 116
+   FrameIndex CYBF E 0 117
+   FrameIndex CYBF F 0 118
+   FrameIndex CYBF G 0 119
+   FrameIndex CYBF H 0 120
+   FrameIndex CYBF I 0 121
+   FrameIndex CYBF J 0 122
+   FrameIndex CYBF K 0 123
+   FrameIndex CYBF L 0 124
+   FrameIndex CYBF M 0 125
+   FrameIndex CYBF N 0 126
+   FrameIndex CYBF O 0 127
+   FrameIndex CYBF P 0 128
+   FrameIndex CYBF Q 0 129
+   FrameIndex CYBF R 0 130
+   FrameIndex CYBF S 0 131
+   FrameIndex CYBF T 0 132
+   FrameIndex CYBF U 0 133
+   
+   FrameIndex CYDL A 0 134
+   FrameIndex CYDL B 0 135
+   FrameIndex CYDL C 0 136
+   FrameIndex CYDL D 0 137
+   FrameIndex CYDL E 0 138
+   FrameIndex CYDL F 0 139
+   FrameIndex CYDL G 0 140
+   FrameIndex CYDL H 0 141
+   FrameIndex CYDL I 0 142
+   FrameIndex CYDL J 0 143
+   FrameIndex CYDL K 0 144
+   FrameIndex CYDL L 0 145
+   FrameIndex CYDL M 0 146
+   FrameIndex CYDL N 0 147
+   FrameIndex CYDL O 0 148
+   FrameIndex CYDL P 0 149
+   FrameIndex CYDL Q 0 150
+   FrameIndex CYDL R 0 151
+   
+   FrameIndex CYDR A 0 152
+   FrameIndex CYDR B 0 153
+   FrameIndex CYDR C 0 154
+   FrameIndex CYDR D 0 155
+   FrameIndex CYDR E 0 156
+   FrameIndex CYDR F 0 157
+   FrameIndex CYDR G 0 158
+   FrameIndex CYDR H 0 159
+   FrameIndex CYDR I 0 160
+   FrameIndex CYDR J 0 161
+   FrameIndex CYDR K 0 162
+   FrameIndex CYDR L 0 163
+   FrameIndex CYDR M 0 164
+   FrameIndex CYDR N 0 165
+   FrameIndex CYDR O 0 166
+   FrameIndex CYDR P 0 167
+   FrameIndex CYDR Q 0 168
+   FrameIndex CYDR R 0 169
+   
+   FrameIndex CYSS A 0 170
+   FrameIndex CYSS B 0 171
+   FrameIndex CYSS C 0 172
+   FrameIndex CYSS D 0 173
+   FrameIndex CYSS E 0 174
+   FrameIndex CYSS F 0 175
+   FrameIndex CYSS G 0 176
+   FrameIndex CYSS H 0 177
+   FrameIndex CYSS I 0 178
+   FrameIndex CYSS J 0 179
+   FrameIndex CYSS K 0 180
+   FrameIndex CYSS L 0 181
+   FrameIndex CYSS M 0 182
+   FrameIndex CYSS N 0 183
+   FrameIndex CYSS O 0 184
+   FrameIndex CYSS P 0 185
+   FrameIndex CYSS Q 0 186
+   FrameIndex CYSS R 0 187
+   FrameIndex CYSS S 0 188
+   FrameIndex CYSS T 0 189
+   FrameIndex CYSS U 0 190
+   
+   FrameIndex CYSL A 0 191
+   FrameIndex CYSL B 0 192
+   FrameIndex CYSL C 0 193
+   FrameIndex CYSL D 0 194
+   FrameIndex CYSL E 0 195
+   FrameIndex CYSL F 0 196
+   FrameIndex CYSL G 0 197
+   FrameIndex CYSL H 0 198
+   FrameIndex CYSL I 0 199
+   FrameIndex CYSL J 0 200
+   FrameIndex CYSL K 0 201
+   FrameIndex CYSL L 0 202
+   FrameIndex CYSL M 0 203
+   FrameIndex CYSL N 0 204
+   FrameIndex CYSL O 0 205
+   
+   FrameIndex CYSE A 0 206
+   FrameIndex CYSE B 0 207
+   FrameIndex CYSE C 0 208
+   FrameIndex CYSE D 0 209
+   FrameIndex CYSE E 0 210
+   FrameIndex CYSE F 0 211
+   FrameIndex CYSE G 0 212
+   FrameIndex CYSE H 0 213
+   FrameIndex CYSE I 0 214
+   FrameIndex CYSE J 0 215
+   FrameIndex CYSE K 0 216
+   FrameIndex CYSE L 0 217
+   FrameIndex CYSE M 0 218
+   FrameIndex CYSE N 0 219
+   FrameIndex CYSE O 0 220
+   FrameIndex CYSE P 0 221
+   FrameIndex CYSE Q 0 222
+   FrameIndex CYSE R 0 223
+   FrameIndex CYSE S 0 224
+   FrameIndex CYSE T 0 225
+   FrameIndex CYSE U 0 226
+}
+
+Model D4SummonerBody
+{ 
+   Path "MD3/Summoner"
+   SKIN 0 "Summoner.jpg"
+   MODEL 0 "Summoner.md3"
+   Scale 1.0 1.0 1.0
+   
+   FrameIndex CYBD A 0 226
+   FrameIndex CYBD B 0 227
+   FrameIndex CYBD C 0 228
+   FrameIndex CYBD D 0 229
+   FrameIndex CYBD E 0 230
+   FrameIndex CYBD F 0 231
+   FrameIndex CYBD G 0 232
+   FrameIndex CYBD H 0 233
+   FrameIndex CYBD I 0 234
+   FrameIndex CYBD J 0 235
+   FrameIndex CYBD K 0 236
+   FrameIndex CYBD L 0 237
+   FrameIndex CYBD M 0 238
+   FrameIndex CYBD N 0 239
+   FrameIndex CYBD O 0 240
+   FrameIndex CYBD P 0 241
+   FrameIndex CYBD Q 0 242
+   FrameIndex CYBD R 0 243
+   FrameIndex CYBD S 0 244
+   FrameIndex CYBD T 0 245
+   FrameIndex CYBD U 0 246
+   FrameIndex CYBD V 0 247
+}
+
+Model SummonerFloorPortal
+{ 
+   Path "MD3/Tamer"
+   SKIN 0 "PortalMask.png"
+   MODEL 0 "SummonFloorPortalMask.md3"
+   Scale 1.0 1.0 1.0
+   
+   FrameIndex NADA A 0 0
+   FrameIndex NADA B 0 1
+}
+
+Model SummonerFloorPortalBorder
+{ 
+   Path "MD3/Tamer"
+   SKIN 0 "PortalMask.png"
+   MODEL 0 "SummonFloorPortal.md3"
+   Path "MD3/Summoner"
+   SKIN 0 "PortalSummoner.jpg"
+   Scale 1.0 1.0 1.0
+   ROTATING
+   Rotation-Speed 8
+   
+   FrameIndex NADA A 0 0
+   FrameIndex NADA B 0 1
+}
+
+Model SummonerScythe
+{ 
+   Path "MD3/Summoner"
+   SKIN 0 "SummonerBall.png"
+   MODEL 0 "SummonerBall.md3"
+   Scale 1.5 1.5 1.5
+   PITCHFROMMOMENTUM
+   
+   FrameIndex NADA A 0 0
+}
+
+Model ArgentLightningBolt
+{ 
+   Path "MD3/Projectiles"
+   SKIN 0 "argentbolt1.png"
+   MODEL 0 "Lightning.md3"
+   Scale 1.0 1.0 1.0
+   
+   FrameIndex NADA A 0 0
+   SKIN 0 "argentbolt2.png"
+   FrameIndex NADA B 0 0
+   SKIN 0 "argentbolt3.png"
+   FrameIndex NADA C 0 0
+   SKIN 0 "argentbolt4.png"
+   FrameIndex NADA D 0 0
+}

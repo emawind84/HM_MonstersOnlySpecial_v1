@@ -1,0 +1,66 @@
+actor D3Maggot
+{
+Health 300
+	PainChance 64
+	Speed 4
+	Radius 30
+	Height 56
+	Mass 400
+	MaxStepHeight 24
+	MaxDropOffHeight 64
+	MONSTER
+	+SLIDESONWALLS
+	+FLOORCLIP
+	+FORCERADIUSDMG
+  SeeSound "Maggot/Sight"
+  ActiveSound "Maggot/Idle"
+  PainSound "Maggot/Pain"
+  DeathSound "Maggot/Death"
+  HitObituary "$OB_MAGGOT"
+  Scale 0.80
+  states
+  {
+  Spawn:
+    CYBI ABCDEFGHIJKLMNOPQRSTVWXYZ 6 A_LookEx(0,0,0,0,120,"See")
+    CYBO ABCDEFGHIJKLMNOPQRST 6 A_LookEx(0,0,0,0,120,"See")
+    Loop
+  See:
+    CYBW ABCDEFGHIJKLMNOPQRSTUVWXYZ 2 A_Chase
+    Loop
+  Pain:
+    CYBI A 1 
+    CYBI A 1 A_Pain
+    goto See
+  Melee:
+    CYBM A 0 A_Jump(128,"MeleeAlt")
+    CYBM ABCDEFGHI 1 A_FaceTarget
+	CYBM J 2 A_CustomMeleeAttack(10,"impmelee","weapons/fistswing",melee,1)
+	CYBM KLMMNO 2
+	goto See
+  MeleeAlt:
+    CYBN ABCDEFG 1 A_FaceTarget
+	CYBN H 2 A_CustomMeleeAttack(10,"impmelee","weapons/fistswing",melee,1)
+	CYBN IJKLMNOPQ 2
+	goto See
+  Death:
+	CYBI A 1 A_Scream
+	CYBI A 1 A_Fall
+	TNT1 A 1 A_SpawnItemEx("D3MaggotBody")
+	stop
+  }
+}
+
+Actor D3MaggotBody
+{
+	Scale 0.80
+	States
+	{
+	Spawn:
+		IMPD ABCDEFGHIJKLMNOPQPOP 1
+		IMPD Q 700
+		Goto FadeOut
+	FadeOut:
+		IMPD Q 1 A_FadeOut(0.06)
+		Loop
+	}
+}

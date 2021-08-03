@@ -1,0 +1,67 @@
+actor D3PistolGuy : Zombieman
+{
+  Speed 3
+  Health 20
+  Radius 16
+  Height 56
+  SeeSound "shotsight"
+  ActiveSound "shotactive"
+  PainSound "shotpain"
+  DeathSound "shotdeath"
+  AttackSound "weapons/pstlf"
+  DropItem "Clip"
+  Obituary "Got Shot By a Zombieman."
+  MONSTER
+	+SLIDESONWALLS
+	+FLOORCLIP
+	Scale 0.80
+  states
+  {
+  Spawn:
+    CYBI ABCDEFGHIJKLMNOPQRSTUVWXYZ 6 A_LookEx(0,0,0,0,120,"See")
+    loop
+  See:
+    CYBW ABCDEFGHIJKLMNOPQ 1 A_Chase
+    loop
+  Pain:
+    CYBI A 1
+    CYBI A 1 A_Pain
+    goto See
+  Missile:
+	CYBF AAAAAAAAAAAAAAAAA 1 A_FaceTarget
+	CYBF A 0
+	CYBF A 0 A_PlaySound("weapons/pstlf",7)
+    CYBF A 2 A_CustomMissile("ZombiemanPlasmaBall", 48, 0, frandom(-4.0,4.0), CMF_OFFSETPITCH, frandom(-4.0,4.0))
+	CYBF BCDEFGHIJKLMNOPQRS 2
+	Goto See
+  Death:
+	CYBI A 1 A_Scream
+	CYBI A 1 A_Fall
+	TNT1 A 1 A_SpawnItemEx("D3PistolGuyBody")
+	stop
+  }
+}
+
+Actor D3PistolGuyBody 
+{
+	Scale 0.80
+	States
+	{
+	Spawn:
+	    TNT1 A 0
+		TNT1 A 0 A_Recoil(12)
+		CYBD A 2
+		CYBD BCDEFGH 2
+		CYBD I 700
+		CYBD IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII 1 A_FadeOut(0.06)
+		Stop
+	}
+}
+
+
+Actor ZombiemanReplacer : RandomSpawner Replaces Zombieman 
+{
+
+    DropItem "D3PistolGuy" ,255 ,1
+
+}

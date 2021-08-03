@@ -1,0 +1,97 @@
+actor D3Bruiser : Baronofhell
+{
+  Health 1000
+	Radius 24
+	Height 64
+	Mass 1000
+	PainChance 40
+	Speed 4
+  MaxStepHeight 32
+  MaxDropOffHeight 64
+  MaxTargetRange 1800
+  SeeSound "bruis/sight"
+  ActiveSound "bruis/active"
+  PainSound "bruis/pain"
+  DeathSound "bruis/death"
+  Obituary "$OB_BRUISER"
+  HitObituary "$OB_BRUISERMELEE"
+  +QUICKTORETALIATE
+  MONSTER
+	+SLIDESONWALLS
+	+FLOORCLIP
+	Scale 0.80
+  states
+  {
+  Spawn:
+    CYBI ABCDEFGHIJKLMNOPQRSTUVWXYZ 2 A_LookEx(0,0,0,0,120,"See")
+    CYBU ABCDEFGHIJK 2 A_LookEx(0,0,0,0,120,"See")
+    loop
+  See:
+    CYBW ABCDEFGHIJKL 1 A_Chase
+	CYBW M 0 A_PlaySound("bruiser/step",7)
+	CYBW MNOPQRSTUVWXYZ 1 A_Chase
+	CYBX A 1 A_Chase
+	CYBX B 0 A_PlaySound("bruiser/step",7)
+	CYBX BCDEFG 1 A_Chase
+    loop
+  Pain:
+    CYBI A 1
+    CYBI A 1 A_Pain
+    goto See
+  Missile:
+    CYBF A 1 
+	CYBF C 0 A_PlaySound("bruis/attack")
+	CYBF C 0 A_FaceTarget
+	CYBF C 1 A_CustomMissile("D4FatsoFire",64,-32)
+	CYBF EGIKMOQS 1
+	CYBF U 0 A_PlaySound("bruis/attack")
+	CYBF U 0 A_FaceTarget
+	CYBF U 1 A_CustomMissile("D4FatsoFire",64,32)
+	CYBF WY 1 
+	CYBS ACEG 1 
+	goto See
+  Melee:
+    CYBM A 0 A_Jump(128,"MeleeAlt")
+    CYBM ABCDEFGHIJKLMN 1 A_FaceTarget
+    CYBM O 1 A_CustomMeleeAttack(random(10,20),"Melee/Kick","weapons/footwing",melee,0)
+    CYBM PQRSTUVWXYZ 2
+    CYBN ABCDEFG 2
+	goto see
+  MeleeAlt:
+    CYBO ABCDEFGHIJKLMN 1 A_FaceTarget
+    CYBO O 1 A_CustomMeleeAttack(random(10,20),"Melee/Kick","weapons/footwing",melee,0)
+    CYBO PQRSTUVWXYZ 2
+    CYBP ABCDEFG 2
+	goto see
+  Death:
+	CYBI A 1 A_Scream
+	CYBI A 1 A_Fall
+	TNT1 A 1 A_SpawnItemEx("D3BruiserBody")
+	stop
+  }
+}
+
+Actor D3BruiserBody
+{
+	Scale 0.80
+	States
+	{
+	Spawn:
+		CYBD ABCDEF 2
+		CYBD GHIJKL 3
+		CYBD MNOPQRSTU 2
+		CYBD V 700
+		Goto FadeOut
+	FadeOut:
+		CYBD V 1 A_FadeOut(0.06)
+		Loop
+	}
+}
+
+
+Actor Baronspawner : RandomSpawner Replaces Baronofhell
+{
+
+    DropItem "D3Bruiser" ,255 ,1
+
+}

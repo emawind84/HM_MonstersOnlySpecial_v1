@@ -1,0 +1,100 @@
+
+
+$random Doom4/Monsters/Cacodemon/Attack { Doom4/Monsters/Cacodemon/Attack1 Doom4/Monsters/Cacodemon/Attack2 }
+$random Doom4/Monsters/Cacodemon/Death { Doom4/Monsters/Cacodemon/Death1 Doom4/Monsters/Cacodemon/Death2 }
+$random Doom4/Monsters/Cacodemon/Idle { Doom4/Monsters/Cacodemon/Idle1 Doom4/Monsters/Cacodemon/Idle2 }
+$random Doom4/Monsters/Cacodemon/Sight { Doom4/Monsters/Cacodemon/SightEcho1 Doom4/Monsters/Cacodemon/SightEcho2 }
+$random Doom4/Monsters/Cacodemon/Pain { Doom4/Monsters/Cacodemon/Pain1 Doom4/Monsters/Cacodemon/Pain2 }
+
+Doom4/Monsters/Cacodemon/Attack1		"Sounds/Monsters/Cacodemon/Attack1.ogg"
+Doom4/Monsters/Cacodemon/Attack2		"Sounds/Monsters/Cacodemon/Attack2.ogg"
+Doom4/Monsters/Cacodemon/Death1			"Sounds/Monsters/Cacodemon/Death1.ogg"
+Doom4/Monsters/Cacodemon/Death2			"Sounds/Monsters/Cacodemon/Death2.ogg"
+Doom4/Monsters/Cacodemon/Idle1			"Sounds/Monsters/Cacodemon/Idle1.ogg"
+Doom4/Monsters/Cacodemon/Idle2			"Sounds/Monsters/Cacodemon/Idle2.ogg"
+Doom4/Monsters/Cacodemon/Pain1			"Sounds/Monsters/Cacodemon/Pain1.ogg"
+Doom4/Monsters/Cacodemon/Pain2			"Sounds/Monsters/Cacodemon/Pain2.ogg"
+Doom4/Monsters/Cacodemon/Sight1			"Sounds/Monsters/Cacodemon/Sight1.ogg"
+Doom4/Monsters/Cacodemon/Sight2			"Sounds/Monsters/Cacodemon/Sight2.ogg"
+Doom4/Monsters/Cacodemon/SightEcho1		"Sounds/Monsters/Cacodemon/SightEcho1.ogg"
+Doom4/Monsters/Cacodemon/SightEcho2		"Sounds/Monsters/Cacodemon/SightEcho2.ogg"
+
+$random Doom4/Monsters/Cacodemon/Fireball { Doom4/Monsters/Cacodemon/Fireball1 Doom4/Monsters/Cacodemon/Fireball2 Doom4/Monsters/Cacodemon/Fireball3 }
+Doom4/Monsters/Cacodemon/Fireball1		"Sounds/Monsters/Cacodemon/CacoShot1.ogg"
+Doom4/Monsters/Cacodemon/Fireball2		"Sounds/Monsters/Cacodemon/CacoShot2.ogg"
+Doom4/Monsters/Cacodemon/Fireball3		"Sounds/Monsters/Cacodemon/CacoShot3.ogg"
+
+
+$random Doom4/Monsters/Pinky/Charge { Doom4/Monsters/Pinky/Charge1 Doom4/Monsters/Pinky/Charge2 }
+$random Doom4/Monsters/Pinky/Death 	{ Doom4/Monsters/Pinky/Death1 Doom4/Monsters/Pinky/Death2 }
+$random Doom4/Monsters/Pinky/Idle 	{ Doom4/Monsters/Pinky/Idle1 Doom4/Monsters/Pinky/Idle2 Doom4/Monsters/Pinky/Idle3 }
+$random Doom4/Monsters/Pinky/Melee 	{ Doom4/Monsters/Pinky/Melee1 Doom4/Monsters/Pinky/Melee2 Doom4/Monsters/Pinky/Melee3 }
+$random Doom4/Monsters/Pinky/Pain 	{Doom4/Monsters/Pinky/Pain1 Doom4/Monsters/Pinky/Pain2 }
+$random Doom4/Monsters/Pinky/Sight 	{ Doom4/Monsters/Pinky/SightEcho1 Doom4/Monsters/Pinky/SightEcho2 }
+$random Doom4/Monsters/Pinky/Step 	{ Doom4/Monsters/Pinky/Step1 Doom4/Monsters/Pinky/Step2 Doom4/Monsters/Pinky/Step3 Doom4/Monsters/Pinky/Step4}
+
+Doom4/Monsters/Pinky/Charge1		"Sounds/Monsters/Pinky/ChargeRoar1.ogg"
+Doom4/Monsters/Pinky/Charge2		"Sounds/Monsters/Pinky/ChargeRoar2.ogg"
+Doom4/Monsters/Pinky/Death1			"Sounds/Monsters/Pinky/Death1.ogg"
+Doom4/Monsters/Pinky/Death2			"Sounds/Monsters/Pinky/Death2.ogg"
+Doom4/Monsters/Pinky/Idle1			"Sounds/Monsters/Pinky/Idle1.ogg"
+Doom4/Monsters/Pinky/Idle2			"Sounds/Monsters/Pinky/Idle2.ogg"
+Doom4/Monsters/Pinky/Idle3			"Sounds/Monsters/Pinky/Idle3.ogg"
+Doom4/Monsters/Pinky/Melee1			"Sounds/Monsters/Pinky/Melee1.ogg"
+Doom4/Monsters/Pinky/Melee2			"Sounds/Monsters/Pinky/Melee2.ogg"
+Doom4/Monsters/Pinky/Melee3			"Sounds/Monsters/Pinky/Melee3.ogg"
+Doom4/Monsters/Pinky/Pain1			"Sounds/Monsters/Pinky/Pain1.ogg"
+Doom4/Monsters/Pinky/Pain2			"Sounds/Monsters/Pinky/Pain2.ogg"
+Doom4/Monsters/Pinky/Sight1			"Sounds/Monsters/Pinky/Sight1.ogg"
+Doom4/Monsters/Pinky/Sight2			"Sounds/Monsters/Pinky/Sight2.ogg"
+Doom4/Monsters/Pinky/SightEcho1		"Sounds/Monsters/Pinky/SightEcho1.ogg"
+Doom4/Monsters/Pinky/SightEcho2		"Sounds/Monsters/Pinky/SightEcho2.ogg"
+Doom4/Monsters/Pinky/Step1			"Sounds/Monsters/Pinky/Step1.ogg"
+Doom4/Monsters/Pinky/Step2			"Sounds/Monsters/Pinky/Step2.ogg"
+Doom4/Monsters/Pinky/Step3			"Sounds/Monsters/Pinky/Step3.ogg"
+Doom4/Monsters/Pinky/Step4			"Sounds/Monsters/Pinky/Step4.ogg"
+
+$random Doom4/Monsters/HellKnight/Death { Doom4/Monsters/HellKnight/Death1 Doom4/Monsters/HellKnight/Death2 }
+$random Doom4/Monsters/HellKnight/Idle { Doom4/Monsters/HellKnight/Idle1 Doom4/Monsters/HellKnight/Idle2 }
+$random Doom4/Monsters/HellKnight/Melee { Doom4/Monsters/HellKnight/Melee1 Doom4/Monsters/HellKnight/Melee2 }
+$random Doom4/Monsters/HellKnight/Pain { Doom4/Monsters/HellKnight/Pain1 Doom4/Monsters/HellKnight/Pain2 }
+$random Doom4/Monsters/HellKnight/Sight { Doom4/Monsters/HellKnight/SightEcho1 Doom4/Monsters/HellKnight/SightEcho2 }
+
+Doom4/Monsters/HellKnight/Charge		"Sounds/Monsters/HellKnight/Charge.ogg"
+Doom4/Monsters/HellKnight/Death1		"Sounds/Monsters/HellKnight/Death1.ogg"
+Doom4/Monsters/HellKnight/Death2		"Sounds/Monsters/HellKnight/Death2.ogg"
+Doom4/Monsters/HellKnight/Idle1			"Sounds/Monsters/HellKnight/Idle1.ogg"
+Doom4/Monsters/HellKnight/Idle2			"Sounds/Monsters/HellKnight/Idle2.ogg"
+Doom4/Monsters/HellKnight/Melee1		"Sounds/Monsters/HellKnight/Melee1.ogg"
+Doom4/Monsters/HellKnight/Melee2		"Sounds/Monsters/HellKnight/Melee2.ogg"
+Doom4/Monsters/HellKnight/Pain1			"Sounds/Monsters/HellKnight/Pain1.ogg"
+Doom4/Monsters/HellKnight/Pain2			"Sounds/Monsters/HellKnight/Pain2.ogg"
+Doom4/Monsters/HellKnight/Sight1		"Sounds/Monsters/HellKnight/Sight1.ogg"
+Doom4/Monsters/HellKnight/Sight2		"Sounds/Monsters/HellKnight/Sight2.ogg"
+Doom4/Monsters/HellKnight/SightEcho1	"Sounds/Monsters/HellKnight/SightEcho1.ogg"
+Doom4/Monsters/HellKnight/SightEcho2	"Sounds/Monsters/HellKnight/SightEcho2.ogg"
+
+
+Doom4/Monsters/BaronFloorPound				"Sounds/Monsters/SFX/BaronFloorPound.ogg"
+
+$random Doom4/Monsters/Archvile/Death { Doom4/Monsters/Archvile/Death1 Doom4/Monsters/Archvile/Death2 Doom4/Monsters/Archvile/Death3 } 
+$random Doom4/Monsters/Archvile/Pain { Doom4/Monsters/Archvile/Pain1 Doom4/Monsters/Archvile/Pain2 Doom4/Monsters/Archvile/Pain3 }
+$random Doom4/Monsters/Archvile/Sight { Doom4/Monsters/Archvile/SightEcho1 Doom4/Monsters/Archvile/SightEcho2 }
+$random Doom4/Monsters/Archvile/Idle { Doom4/Monsters/Archvile/Idle1 Doom4/Monsters/Archvile/Idle2 } 
+Doom4/Monsters/Archvile/Death1			"Sounds/Monsters/Archvile/Death1.ogg"
+Doom4/Monsters/Archvile/Death2			"Sounds/Monsters/Archvile/Death2.ogg"
+Doom4/Monsters/Archvile/Death3			"Sounds/Monsters/Archvile/Death3.ogg"
+Doom4/Monsters/Archvile/Pain1			"Sounds/Monsters/Archvile/Pain1.ogg"
+Doom4/Monsters/Archvile/Pain2			"Sounds/Monsters/Archvile/Pain2.ogg"
+Doom4/Monsters/Archvile/Pain3			"Sounds/Monsters/Archvile/Pain3.ogg"
+Doom4/Monsters/Archvile/Sight1			"Sounds/Monsters/Archvile/Sight1.ogg"
+Doom4/Monsters/Archvile/Sight2			"Sounds/Monsters/Archvile/Sight2.ogg"
+Doom4/Monsters/Archvile/SightEcho1		"Sounds/Monsters/Archvile/SightEcho1.ogg"
+Doom4/Monsters/Archvile/SightEcho2		"Sounds/Monsters/Archvile/SightEcho2.ogg"
+Doom4/Monsters/Archvile/Idle1			"Sounds/Monsters/Archvile/Idle1.ogg"
+Doom4/Monsters/Archvile/Idle2			"Sounds/Monsters/Archvile/Idle2.ogg"
+
+Doom4/Monsters/FireWaveShoot	"sounds/Other/FireWaveStart.ogg"
+Doom4/Monsters/FireWaveCrash	"sounds/Other/FireWaveEnd.ogg"
+Doom4/Monsters/ArgentWaveFire	"sounds/Other/ArgentWave.ogg"
+Doom4/Monsters/ArgentCharge		"sounds/Other/ArgentCharge.ogg"

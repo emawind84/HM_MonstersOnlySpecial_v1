@@ -1,0 +1,101 @@
+actor D3ShotgunGuy : Shotgunguy
+{
+  Health 20
+	Radius 20
+	Height 56
+	Mass 100
+	Speed 4
+	PainChance 128
+  MaxTargetRange 1024
+  SeeSound "shotsight"
+  ActiveSound "shotactive"
+  PainSound "shotpain"
+  DeathSound "shotdeath"
+  AttackSound "shotattack"
+  DropItem "Shotgun"
+  Obituary "$OB_SHOTGUY"
+  MONSTER
+	+SLIDESONWALLS
+	+FLOORCLIP
+	Scale 0.80
+  states
+  {
+  Spawn:
+    CYBI ABCDEFGHIJKLM 6 A_LookEx(0,0,0,0,120,"See")
+    loop
+  See:
+    CYBW ABCDEFGHIJKLMNOPQRSTU 1 A_Chase
+    loop
+  Pain:
+    CYBI A 1 
+    CYBI A 1 A_Pain
+    goto See
+  Missile:
+	CYBF AAAAAAAAAAAAAAAAA 1 A_FaceTarget
+	CYBF A 0 A_SpawnItemEx("FlashMG",16,12,44,16)
+	CYBF A 0 A_PlaySound("ShotAttack",7)
+    CYBF AAA 0 A_CustomMissile("ShotgunPlasmaBall", 48, 0, random(-8,8), CMF_OFFSETPITCH, random(-8,8))
+    CYBF A 2 A_CustomMissile("ShotgunPlasmaBall", 48, 0, random(-8,8), CMF_OFFSETPITCH, random(-8,8))
+	CYBF BCDEFGHIJKLMNOPQRSTUVW 2
+	Goto See
+  Death:
+	CYBI A 1 A_Scream
+	CYBI A 1 A_Fall
+	TNT1 A 1 A_SpawnItemEx("D3ShotgunGuyBody")
+	stop
+  }
+}
+
+Actor D3ShotgunGuyBody
+{
+	Scale 0.80
+	States
+	{
+	Spawn:
+		CYBD A 0
+		CYBD A 0 A_Recoil(2)
+		CYBD ABCDEFGHIJKLM 2
+		CYBD N 700
+		CYBD NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN 1 A_FadeOut(0.06)
+		Stop
+	}
+}
+
+Actor ShotgunguySpawner : RandomSpawner Replaces Shotgunguy
+{
+
+    DropItem "D3ShotgunGuy" ,255 ,1
+
+}
+
+Actor ShotgunPlasmaBall
+{
+	Projectile
+	Radius 7
+	Height 12
+	Scale 0.2
+	RenderStyle Add
+	Alpha 0.99
+	Speed 20
+	FastSpeed 25
+	Damage 2
+	SeeSound "Doom4/Monsters/PlasmaShot"
+	Translation "0:255=%[0,0,0]:[1.5,0.3,0.08]"
+	+FORCEXYBILLBOARD
+	Decal "D4PlasmaMonster"
+	States
+	{
+	Spawn:
+		TNT1 A 0 NODELAY
+		Goto Looper
+	Looper:
+		SPIR P 4 Bright Light("OrangeSmallPoint2") 
+		Loop
+	Death:
+		TNT1 A 0 A_SpawnItemEx("ZombiePlasmaBallPuff",0,0,0,0,0,0,0,SXF_NOCHECKPOSITION|SXF_TRANSFERTRANSLATION)
+		TNT1 A 3 Light("OrangeSmallPoint1")
+		TNT1 A 3 Light("OrangeSmallPoint2")
+		TNT1 A 3 Light("OrangeSmallPoint3")
+		Stop
+	}
+}

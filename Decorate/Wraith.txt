@@ -1,0 +1,134 @@
+actor D3Wraith : Arachnotron
+{
+    Speed 5
+    FloatSpeed 32
+    Health 300
+	PainChance 64
+	Speed 10
+	Radius 30
+	Height 56
+	Mass 400
+  SeeSound "Wraith/Sight"
+  ActiveSound "Wraith/Idle"
+  PainSound "Wraith/Pain"
+  DeathSound "Wraith/Death"
+  HitObituary "$OB_WRAITH"
+  MONSTER
+	+SLIDESONWALLS
+	+FLOORCLIP
+  states
+  {
+  Spawn:
+    CYBI ABCDEFGHIJKLMNOPQRSTUVWXYZ 6 A_LookEx(0,0,0,0,120,"See")
+    CYBO ABCDEFGHI 6 A_LookEx(0,0,0,0,120,"See")
+    Loop
+  See:
+    CYBW ABCDEFGHIJKLMNOP 2 A_Chase
+	CYBW A 0 A_Jump(128,"Teleport")
+    Loop
+  Pain:
+    CYBI A 1
+    CYBI A 1 A_Pain
+    goto See
+  Missile:
+  Melee:
+    CYBM A 0 A_Jump(128,"MeleeAlt")
+    CYBM ABCDE 1 A_FaceTarget
+	CYBM F 2 A_CustomMeleeAttack(random(6,10),"impmelee","weapons/fistswing",melee,1)
+	CYBM GHIJKLMMNO 2
+	goto See
+  MeleeAlt:
+    CYBN ABCDEFG 1 A_FaceTarget
+	CYBN H 2 A_CustomMeleeAttack(random(6,10),"impmelee","weapons/fistswing",melee,1)
+	CYBN IJKLMNOPQRST 2
+	goto See
+  Teleport:
+    CYBI A 0 A_SetInvulnerable
+    CYBI A 0 A_UnSetShootable
+    CYBI A 1 A_SetTranslucent(0.75)
+    CYBI A 1 A_SetTranslucent(0.50)
+    CYBI A 1 A_SetTranslucent(0.25)
+	CYBI A 1 A_HideThing
+	CYBI A 0 A_SpawnItem("WraithFogSpawner",0,32,0)
+	CYBA A 0 A_ChangeFlag("FLOAT",1)
+	CYBA A 0 A_ChangeFlag("NOGRAVITY",1)
+    CYBI AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA 0 A_ExtChase(0,0,0,0)
+    CYBI AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA 0 A_ExtChase(0,0,0,0)
+    CYBI AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA 0 A_ExtChase(0,0,0,0)
+	CYBA A 0 A_ChangeFlag("FLOAT",0)
+	CYBA A 0 A_ChangeFlag("NOGRAVITY",0)
+	CYBI A 0 A_SpawnItem("WraithFogSpawner",0,32,0)
+	CYBI A 1 A_UnHideThing
+    CYBI A 1 A_SetTranslucent(0.25)
+    CYBI A 1 A_SetTranslucent(0.50)
+    CYBI A 1 A_SetTranslucent(0.75)
+    CYBI A 1 A_SetTranslucent(1.0)
+    CYBI A 0 A_UnSetInvulnerable
+    CYBI A 0 A_SetShootable
+    goto See
+  Death:
+	CYBI A 1
+	TNT1 A 1 A_SpawnItemEx("D3WraithBody")
+	stop
+	}
+}
+
+Actor D3WraithBody 
+{
+	States
+	{
+	Spawn:
+		IMPD ABCDEFGHIJKLMNOPQRS 2
+		IMPD T 700
+		Goto FadeOut
+	FadeOut:
+		IMPD T 1 A_FadeOut(0.06)
+		Loop
+	}
+}
+
+ACTOR WraithFogSpawner
+{   
+   Radius 1
+   Height 1
+   Speed 0
+   +NOGRAVITY
+   +NODROPOFF
+   +CLIENTSIDEONLY
+   States
+   {
+   Spawn:
+      NULL A 0
+      NULL AAAAA 0 A_SpawnItemEx("WraithFog", 0, 0, 0, (0.1)*Random(-20, 20), 0, (0.1)*Random(-20, 20), Random(0, 360), 128)
+	  NULL A 1 A_PlaySound("Wraith/Teleport")
+      Stop
+   }
+}
+
+actor WraithFog
+{
+   Height 8
+   Radius 8
+   Damage 0
+   Speed 0
+   RenderStyle add
+   Alpha 0.25
+   Scale 0.5
+   +NOINTERACTION
+   +ForceXYBillboard
+   +CLIENTSIDEONLY
+   +BRIGHT
+   States
+   {
+   Spawn:
+	  WRAF A 1 A_FadeOut(0.01)
+      Loop
+   }
+}
+
+Actor Arachnospawner : RandomSpawner Replaces Arachnotron
+{
+
+    DropItem "D3Wraith" ,255 ,1
+
+}

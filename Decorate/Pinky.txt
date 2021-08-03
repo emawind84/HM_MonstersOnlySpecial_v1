@@ -1,0 +1,165 @@
+actor D4Pinky : Demon
+{
+  	Health 150
+	PainChance 64
+	Speed 4
+	Radius 30
+	Height 56
+	Mass 400
+	MaxStepHeight 24
+	MaxDropOffHeight 64
+	MONSTER
+	+SLIDESONWALLS
+	+FLOORCLIP
+	+FORCERADIUSDMG
+	SeeSound 	"demon/sight"
+	PainSound 	"demon/pain"
+	DeathSound 	"demon/death"
+	ActiveSound "demon/active"
+	AttackSound "demon/melee"
+	Obituary "$OB_DEMONHIT"
+	MaxTargetRange 256
+	Scale 0.80
+  states
+  {
+  Spawn:
+    CYBI ABCDEFGHIJKLMNOPQRSTUVWXYZ 4 A_LookEx(0,0,0,0,120,"See")
+    loop
+  See:
+    CYBW ABCDEFGH 1 A_Chase
+	CYBW I 0 
+	CYBW I 0
+	CYBW I 0 
+	CYBW I 1 A_PlaySound("D4Pinky/Step",7)
+	CYBW JKLMNOPQRST 1 A_Chase
+	CYBW U 0 
+	CYBW U 0
+	CYBW U 1 A_PlaySound("D4Pinky/Step",7)
+	CYBW VWXYZ 1 A_Chase
+	CYW2 A 1 A_Chase
+    loop
+  Pain:
+    CYBI A 3
+    CYBI A 3 A_Pain
+    goto See
+  Melee:
+	CYBM A 0 A_Jump(128,"MeleeAlt")
+	CYBM A 0 A_PlaySound("Doom4/Monsters/Pinky/Melee",7)
+    CYBM ABCDEFGHI 1 A_FaceTarget
+	CYBM J 1 A_CustomMeleeAttack(10)
+	CYBM KLMNOPQRSTUVWXYZ 1
+	goto See
+  MeleeAlt:
+	CYBM A 0 A_PlaySound("Doom4/Monsters/Pinky/Melee",7)
+    CYAM ABCDEF 1 A_FaceTarget
+	CYAM G 1 A_CustomMeleeAttack(10)
+	CYAM HIJKLMNOPQRSTUVWXYZ 1
+	goto See
+  Death:
+	CYBI A 1 A_Scream
+	CYBI A 1 A_Fall
+	CYBI A 1 A_SpawnItemEx("D4PinkyBody",0,0,0,0,0,0,0,SXF_NOCHECKPOSITION)
+	stop
+  }
+}
+
+Actor D4PinkyBody 
+{
+	States
+	{
+	Spawn:
+		PKDE ABCDEFGHIJKLMNOPQRSTUVWXY 2
+		PKDE Z 700 
+		Goto FadeOut
+	FadeOut:
+		PKDE Z 1 A_FadeOut(0.06)
+		Loop
+	}
+}
+
+actor D4Spectre 
+{
+  	Health 300
+	PainChance 64
+	Speed 5
+	Radius 30
+	Height 56
+	Mass 400
+	MaxStepHeight 24
+	MaxDropOffHeight 64
+	MONSTER
+	+SLIDESONWALLS
+	+FLOORCLIP
+	+FORCERADIUSDMG
+	+SHADOW
+	SeeSound 	"Doom4/Monsters/Pinky/Sight"
+	PainSound 	"Doom4/Monsters/Pinky/Pain"
+	DeathSound 	"Doom4/Monsters/Pinky/Death"
+	ActiveSound "Doom4/Monsters/Pinky/Idle"
+	AttackSound ""
+	Obituary "$OB_DEMONHIT"
+	MaxTargetRange 256
+  states
+  {
+  Spawn:
+    CYBI ABCDEFGHIJKLMNOPQRSTUVWXYZ 4 A_LookEx(0,0,0,0,120,"See")
+    loop
+  See:
+    CYBW ABCDEFGH 1 A_Chase
+	CYBW I 0 
+	CYBW I 0
+	CYBW I 0 
+	CYBW I 1 A_PlaySound("D4Pinky/Step",7)
+	CYBW JKLMNOPQRST 1 A_Chase
+	CYBW U 0 
+	CYBW U 0
+	CYBW U 1 A_PlaySound("D4Pinky/Step",7)
+	CYBW VWXYZ 1 A_Chase
+	CYW2 A 1 A_Chase
+    loop
+  Pain:
+    CYBI A 3
+    CYBI A 3 A_Pain
+    goto See
+  Melee:
+	CYBM A 0 A_Jump(128,"MeleeAlt")
+	CYBM A 0 A_PlaySound("Doom4/Monsters/Pinky/Melee",7)
+    CYBM ABCDEFGHI 1 A_FaceTarget
+	CYBM J 1 A_CustomMeleeAttack(10)
+	CYBM KLMNOPQRSTUVWXYZ 1
+	goto See
+  MeleeAlt:
+	CYBM A 0 A_PlaySound("Doom4/Monsters/Pinky/Melee",7)
+    CYAM ABCDEF 1 A_FaceTarget
+	CYAM G 1 A_CustomMeleeAttack(10)
+	CYAM HIJKLMNOPQRSTUVWXYZ 1
+	goto See
+  Death:
+	CYBI A 1 A_Scream
+	CYBI A 1 A_Fall
+	CYBI A 1 A_SpawnItemEx("D4SpectreBody",0,0,0,0,0,0,0,SXF_NOCHECKPOSITION)
+	stop
+  }
+}
+
+Actor D4SpectreBody 
+{
+	+SHADOW
+	States
+	{
+	Spawn:
+		PKDE ABCDEFGHIJKLMNOPQRSTUVWXY 2
+		PKDE Z 700 
+		Goto FadeOut
+	FadeOut:
+		PKDE Z 1 A_FadeOut(0.06)
+		Loop
+	}
+}
+
+Actor Demonspawner : RandomSpawner Replaces Demon
+{
+
+     DropItem "D4Pinky" ,255 ,1
+
+}
