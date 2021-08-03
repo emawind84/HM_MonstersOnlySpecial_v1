@@ -1,0 +1,7 @@
+class MonsterTracer : _ZTracer
+{
+	Default {
+		Decal "BulletChip";
+		Speed 35;
+	}
+}
